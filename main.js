@@ -24,8 +24,19 @@ year.textContent = currentYear;
 
 // ******** End of Sticky For Profile Bio ************ //
 
+// BATCH ONCLICK //
+
+const batch = document.querySelector(".batch");
+const batchYear = document.querySelector(".batch-year");
+
+batch.addEventListener('click', ()=>{
+  batchYear.classList.toggle('batch-child')
+})
+
+// ************************ //
 
 //change navbar stcccle//
+
 window.addEventListener("scroll", () => {
   document.querySelector(".main-nav")
     .classList.toggle("window_scroll", window.scrollY > 0);

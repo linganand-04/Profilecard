@@ -79,9 +79,11 @@ a {
   overflow: hidden;
   margin: 0 auto 0;
 }
+
 nav button {
   display: none;
 }
+
 .nav__menu {
   display: flex;
   align-items: center;
@@ -104,8 +106,8 @@ nav button {
 .batch-year {
   display: none;
   position: absolute;
-  top: 80%;
-  left: -55%;
+  top: 90%;
+  left: -30%;
   width: 160px;
   background-color: #fff;
   box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.075);
@@ -117,16 +119,18 @@ nav button {
 }
 
 /* Dropdown Hover Effect */
-.batch:hover .batch-year {
+.batch-child {
   display: block;
   text-align: center;
-  width: 200px;
+  width: 150px;
   background: linear-gradient(to top left, rgb(24, 24, 24), #55efc4);
 }
 
-.batch:hover .batch-year ul {
+.batch-year ul {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 12px;
 }
 
 .batch:hover .batch-year ul li a {
@@ -146,11 +150,13 @@ nav button {
   /* 0.9 rem=14.4px */
   transition: var(--transition);
 }
+
 .nav__menu a:hover {
   /* color: var(--color-bg2); */
   /* color: #4bc938; */
   color: white;
 }
+
 .logo-title {
   margin-right: 15rem;
   font-size: 1rem;
@@ -227,6 +233,7 @@ nav button {
 .new-profilecard-2023 {
   padding: 150px 0 96px 0;
 }
+
 .new-profilecard-2024 {
   padding: 32px 0 96px 0;
 }
@@ -320,8 +327,9 @@ nav button {
 .student-profile {
   filter: brightness(1);
   width: 125px;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.6);
   border-radius: 50%;
+  border: 10px solid rgba(0, 0, 0, 0.07);
   /* transform: translate(135%, -110%); */
   background-position: center;
   position: absolute;
@@ -329,7 +337,6 @@ nav button {
   left: 50%;
   transform: translate(-50%, -25%);
   object-fit: cover;
-  border: 10px solid rgba(0, 0, 0, 0.11);
   transition: all ease 0.3s;
 }
 
