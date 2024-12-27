@@ -200,11 +200,11 @@ nav button {
 .course {
   align-items: center;
   padding: 20px;
-  width: 80%;
+  width: 60%;
   margin: auto;
   /* background: #181818; */
   background: transparent;
-  transition: background ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .course-scroll {
@@ -214,7 +214,7 @@ nav button {
 
 .course-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .list-items {
@@ -251,7 +251,7 @@ nav button {
 #projects,
 #web-dev,
 #com-funda,
-#english {
+#others {
   padding: 160px 0 0 0;
 }
 
@@ -319,7 +319,7 @@ nav button {
 
 .profile-banner {
   width: 100%;
-  height: 150px;
+  height: 160px;
   background-position: center;
   margin-bottom: 16px;
 }
