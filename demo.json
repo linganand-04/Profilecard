@@ -1,20 +1,56 @@
 [
-    {
-        "id": 1,
-        "name": "Linganand",
-        "age": 20,
-        "city": "Ponneri"
-    },
-    {
-        "id": 2,
-        "name": "Srikanth",
-        "age": 20,
-        "city": "Ponneri"
-    },
-    {
-        "id": 3,
-        "name": "Anand",
-        "age": 20,
-        "city": "Ponneri"
-    }
+  {
+    "intership" : [
+        {
+            "id": 1,
+            "profile_banner": "img/Bg-Agriculture/Bg-1.jpg",
+            "student_profile":"img/2024/Anand.jpg",
+            "heading_secondary": "Paramanand",
+            "profile_skills":"HTML, CSS, JavaScript, React js , Node js, MongoDB, Next js, Projects and Internship.",
+            "profile_content":"As a passionate and skilled frontend developer, I bring a combination of technical expertise and creative vision that aligns with your company's goals. Over the years, I've honed my skills in React.js, Tailwind CSS, Redux Toolkit, and other modern web technologies, enabling me to build visually stunning, user-centric, and performant applications. Beyond my technical abilities, my experience working in both frontend and backend development gives me a holistic understanding of web application architecture. I thrive on solving problems creatively and am always excited to learn and  adapt to new tools and technologies. I believe your company would benefit from me"
+        },
+        {
+            "id": 2,
+            "profile_banner": "img/Bg-Agriculture/Bg-2.jpg",
+            "student_profile":"img/2024/Saran.jpg",
+            "heading_secondary": "Saran",
+            "profile_skills":"HTML, CSS, JavaScript, React js , Node js, MongoDB, Next js, Projects and Internship.",
+            "profile_content":"I am a dedicated and adaptable professional with a strong desire to contribute meaningfully to your team. My skills and experience align with the needs of your company, and I am confident that I can make a positive impact."
+        },
+        {
+            "id": 3,
+            "profile_banner": "img/Bg-Agriculture/Bg-3.jpg",
+            "student_profile":"img/2024/Srikanth.jpg",
+            "heading_secondary": "Srikanth",
+            "profile_skills":"HTML, CSS, JavaScript, React js, Php, Python, MangoDB, SQL, Git, Projects, Internship",
+            "profile_content":"I am Srikanth from redhills, I had been completed my UG BSC computer science in loganatha narayana swamy government college in ponneri. During college time I had a interest in web developement so i improve my skills sets in html,css,javascript, python and react.js and same time I passed out in 2024 with 8.0 cgpa. After college I had a web developer internship opportunity in rural youth development institute in ponneri . During internship I independently developed a two client projects and I especially proud of my 2nd project'' The Family website '' which for Mr John k neethimanickam the founder and managing director of the dataquapps softwarecompany in banglore. Now i am seeking for Web developer role."
+        },
+        {
+            "id": 4,
+            "profile_banner": "img/Bg-Agriculture/Bg-4.jpg",
+            "student_profile":"img/2024/Rizwan_anwar.jpg",
+            "heading_secondary": "Rizwan",
+            "profile_skills":"HTML, CSS, JavaScript, React js, Php, Python, MangoDB, SQL, Git, Projects, Internship",
+            "profile_content":"I am Srikanth from redhills, I had been completed my UG BSC computer science in loganatha narayana swamy government college in ponneri. During college time I had a interest in web developement so i improve my skills sets in html,css,javascript, python and react.js and same time I passed out in 2024 with 8.0 cgpa. After college I had a web developer internship opportunity in rural youth development institute in ponneri . During internship I independently developed a two client projects and I especially proud of my 2nd project'' The Family website '' which for Mr John k neethimanickam the founder and managing director of the dataquapps softwarecompany in banglore. Now i am seeking for Web developer role."
+        },
+        {
+            "id": 5,
+            "profile_banner": "img/Bg-Agriculture/Bg-5.jpg",
+            "student_profile":"img/2024/Nethaji.jpg",
+            "heading_secondary": "Nethaji",
+            "profile_skills":"HTML, CSS, JavaScript, Java, SQL, Projects and Internship",
+            "profile_content":"Passionate to learn code. Designing, developing and delivering high-volume, low-latency applications for mission-critical systems. strong background in supporting the design and development."
+        },
+        {
+            "id": 6,
+            "profile_banner": "img/Bg-Agriculture/Bg-6.jpg",
+            "student_profile":"img/2024/Linganand.jpg",
+            "heading_secondary": "Linganand",
+            "profile_skills":"Web Development, Spoken English, Computer Fundamentals, Projects, Internship",
+            "profile_content":"Hi, I am Linganand from Ponneri. I am pursuing BSc computer sciene in LNG.I had interested in Web Development during clg days. Then I joined RYDE FOUNDATION. I have completed Web Development class in Ryde Foundation.As a Frontend Developer and Web Developer, I have gained experience in creating responsive and user-friendly websites. I am proficient in HTML, CSS, JavaScript, and have hands-on experience with various frontend frameworks."
+        } 
+    ],
+
+    "webdevelopment" : []
+  } 
 ]

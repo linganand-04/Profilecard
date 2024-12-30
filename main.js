@@ -5,6 +5,104 @@ year.textContent = currentYear;
 
 // End //
 
+// 
+
+const profile = document.querySelector("#students")
+const webdevelopment = document.querySelector("#webdevelopment")
+
+fetch('./demo.json')
+.then(res=> res.json())
+.then(data=>{
+  const intern = data[0].intership;
+  // const web = data[1].webdevelopment;
+  
+intern.forEach(post=> {
+profile.insertAdjacentHTML('beforeend', `<div class="new-profile">
+<div class="profile-bg">
+  <img
+    class="profile-banner"
+    src="${post.profile_banner}"
+    alt="Coding Img"
+  />
+  <img
+    class="student-profile"
+    src="${post.student_profile}"
+    alt="Paramanand"
+  />
+</div>
+<h3 class="heading-secondary">${post.heading_secondary}</h3>
+<div class="content-box">
+  <p class="skills">My skills</p>
+  <p class="profile-skills">
+    ${post.profile_skills}
+  </p>
+  <p class="profile-bio">Bio :</p>
+  <p class="profile-content">
+    ${post.profile_content}
+  </p>
+</div>
+<div class="profile-link">
+  <a
+    class="btn btn-1"
+    target="_blank"
+    href="https://anand-45.netlify.app/"
+    >View Profile</a
+  >
+  <a
+    class="btn btn-2"
+    target="_blank"
+    href="https://anand-45.netlify.app/#work"
+    >View Projects</a
+  >
+</div>
+</div>`)
+})   
+
+// webdevelopment.forEach(post=> {
+//   web.insertAdjacentHTML('beforeend', `<div class="new-profile">
+//   <div class="profile-bg">
+//     <img
+//       class="profile-banner"
+//       src="${post.profile_banner}"
+//       alt="Coding Img"
+//     />
+//     <img
+//       class="student-profile"
+//       src="${post.student_profile}"
+//       alt="Paramanand"
+//     />
+//   </div>
+//   <h3 class="heading-secondary">${post.heading_secondary}</h3>
+//   <div class="content-box">
+//     <p class="skills">My skills</p>
+//     <p class="profile-skills">
+//       ${post.profile_skills}
+//     </p>
+//     <p class="profile-bio">Bio :</p>
+//     <p class="profile-content">
+//       ${post.profile_content}
+//     </p>
+//   </div>
+//   <div class="profile-link">
+//     <a
+//       class="btn btn-1"
+//       target="_blank"
+//       href="https://anand-45.netlify.app/"
+//       >View Profile</a
+//     >
+//     <a
+//       class="btn btn-2"
+//       target="_blank"
+//       href="https://anand-45.netlify.app/#work"
+//       >View Projects</a
+//     >
+//   </div>
+//   </div>`)
+//   }) 
+})
+
+// 
+
 // *************** Sticky For Profile Bio ******************** //
 
     function applyStickyStyle() {
