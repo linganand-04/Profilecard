@@ -1,56 +1,187 @@
 [
-  {
-    "intership" : [
-        {
-            "id": 1,
-            "profile_banner": "img/Bg-Agriculture/Bg-1.jpg",
-            "student_profile":"img/2024/Anand.jpg",
-            "heading_secondary": "Paramanand",
-            "profile_skills":"HTML, CSS, JavaScript, React js , Node js, MongoDB, Next js, Projects and Internship.",
-            "profile_content":"As a passionate and skilled frontend developer, I bring a combination of technical expertise and creative vision that aligns with your company's goals. Over the years, I've honed my skills in React.js, Tailwind CSS, Redux Toolkit, and other modern web technologies, enabling me to build visually stunning, user-centric, and performant applications. Beyond my technical abilities, my experience working in both frontend and backend development gives me a holistic understanding of web application architecture. I thrive on solving problems creatively and am always excited to learn and  adapt to new tools and technologies. I believe your company would benefit from me"
-        },
-        {
-            "id": 2,
-            "profile_banner": "img/Bg-Agriculture/Bg-2.jpg",
-            "student_profile":"img/2024/Saran.jpg",
-            "heading_secondary": "Saran",
-            "profile_skills":"HTML, CSS, JavaScript, React js , Node js, MongoDB, Next js, Projects and Internship.",
-            "profile_content":"I am a dedicated and adaptable professional with a strong desire to contribute meaningfully to your team. My skills and experience align with the needs of your company, and I am confident that I can make a positive impact."
-        },
-        {
-            "id": 3,
-            "profile_banner": "img/Bg-Agriculture/Bg-3.jpg",
-            "student_profile":"img/2024/Srikanth.jpg",
-            "heading_secondary": "Srikanth",
-            "profile_skills":"HTML, CSS, JavaScript, React js, Php, Python, MangoDB, SQL, Git, Projects, Internship",
-            "profile_content":"I am Srikanth from redhills, I had been completed my UG BSC computer science in loganatha narayana swamy government college in ponneri. During college time I had a interest in web developement so i improve my skills sets in html,css,javascript, python and react.js and same time I passed out in 2024 with 8.0 cgpa. After college I had a web developer internship opportunity in rural youth development institute in ponneri . During internship I independently developed a two client projects and I especially proud of my 2nd project'' The Family website '' which for Mr John k neethimanickam the founder and managing director of the dataquapps softwarecompany in banglore. Now i am seeking for Web developer role."
-        },
-        {
-            "id": 4,
-            "profile_banner": "img/Bg-Agriculture/Bg-4.jpg",
-            "student_profile":"img/2024/Rizwan_anwar.jpg",
-            "heading_secondary": "Rizwan",
-            "profile_skills":"HTML, CSS, JavaScript, React js, Php, Python, MangoDB, SQL, Git, Projects, Internship",
-            "profile_content":"I am Srikanth from redhills, I had been completed my UG BSC computer science in loganatha narayana swamy government college in ponneri. During college time I had a interest in web developement so i improve my skills sets in html,css,javascript, python and react.js and same time I passed out in 2024 with 8.0 cgpa. After college I had a web developer internship opportunity in rural youth development institute in ponneri . During internship I independently developed a two client projects and I especially proud of my 2nd project'' The Family website '' which for Mr John k neethimanickam the founder and managing director of the dataquapps softwarecompany in banglore. Now i am seeking for Web developer role."
-        },
-        {
-            "id": 5,
-            "profile_banner": "img/Bg-Agriculture/Bg-5.jpg",
-            "student_profile":"img/2024/Nethaji.jpg",
-            "heading_secondary": "Nethaji",
-            "profile_skills":"HTML, CSS, JavaScript, Java, SQL, Projects and Internship",
-            "profile_content":"Passionate to learn code. Designing, developing and delivering high-volume, low-latency applications for mission-critical systems. strong background in supporting the design and development."
-        },
-        {
-            "id": 6,
-            "profile_banner": "img/Bg-Agriculture/Bg-6.jpg",
-            "student_profile":"img/2024/Linganand.jpg",
-            "heading_secondary": "Linganand",
-            "profile_skills":"Web Development, Spoken English, Computer Fundamentals, Projects, Internship",
-            "profile_content":"Hi, I am Linganand from Ponneri. I am pursuing BSc computer sciene in LNG.I had interested in Web Development during clg days. Then I joined RYDE FOUNDATION. I have completed Web Development class in Ryde Foundation.As a Frontend Developer and Web Developer, I have gained experience in creating responsive and user-friendly websites. I am proficient in HTML, CSS, JavaScript, and have hands-on experience with various frontend frameworks."
-        } 
-    ],
-
-    "webdevelopment" : []
-  } 
+    {
+        "intership": [
+            {
+                "id": 1,
+                "profile_banner": "img/Bg-Agriculture/Bg-1.jpg",
+                "student_profile": "img/2024/Anand.jpg",
+                "heading_secondary": "Paramanand",
+                "profile_skills": "HTML, CSS, JavaScript, React js , Node js, MongoDB, Next js, Projects and Internship.",
+                "profile_content": "As a passionate and skilled frontend developer, I bring a combination of technical expertise and creative vision that aligns with your company's goals. Over the years, I've honed my skills in React.js, Tailwind CSS, Redux Toolkit, and other modern web technologies, enabling me to build visually stunning, user-centric, and performant applications. Beyond my technical abilities, my experience working in both frontend and backend development gives me a holistic understanding of web application architecture. I thrive on solving problems creatively and am always excited to learn and  adapt to new tools and technologies. I believe your company would benefit from me",
+                "profile_view" : "https://anand-45.netlify.app",
+                "profile_projects":"https://anand-45.netlify.app/#work"
+            },
+            {
+                "id": 2,
+                "profile_banner": "img/Bg-Agriculture/Bg-2.jpg",
+                "student_profile": "img/2024/Saran.jpg",
+                "heading_secondary": "Saran",
+                "profile_skills": "HTML, CSS, JavaScript, React js , Node js, MongoDB, Next js, Projects and Internship.",
+                "profile_content": "I am a dedicated and adaptable professional with a strong desire to contribute meaningfully to your team. My skills and experience align with the needs of your company, and I am confident that I can make a positive impact.",
+                "profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 3,
+                "profile_banner": "img/Bg-Agriculture/Bg-3.jpg",
+                "student_profile": "img/2024/Srikanth.jpg",
+                "heading_secondary": "Srikanth",
+                "profile_skills": "HTML, CSS, JavaScript, React js, Php, Python, MangoDB, SQL, Git, Projects, Internship",
+                "profile_content": "I am Srikanth from redhills, I had been completed my UG BSC computer science in loganatha narayana swamy government college in ponneri. During college time I had a interest in web developement so i improve my skills sets in html,css,javascript, python and react.js and same time I passed out in 2024 with 8.0 cgpa. After college I had a web developer internship opportunity in rural youth development institute in ponneri . During internship I independently developed a two client projects and I especially proud of my 2nd project'' The Family website '' which for Mr John k neethimanickam the founder and managing director of the dataquapps softwarecompany in banglore. Now i am seeking for Web developer role.",
+                "profile_view" : "https://rydefoundation.in/stprojects/srikanth/NewPortfolio/portfolio.php",
+                "profile_projects" : "https://rydefoundation.in/stprojects/srikanth/NewPortfolio/portfolio.php#projectpage"
+            },
+            {
+                "id": 4,
+                "profile_banner": "img/Bg-Agriculture/Bg-4.jpg",
+                "student_profile": "img/2024/Rizwan_anwar.jpg",
+                "heading_secondary": "Rizwan",
+                "profile_skills": "HTML, CSS, JavaScript, React js, Php, Python, MangoDB, SQL, Git, Projects, Internship",
+                "profile_content": "I am Srikanth from redhills, I had been completed my UG BSC computer science in loganatha narayana swamy government college in ponneri. During college time I had a interest in web developement so i improve my skills sets in html,css,javascript, python and react.js and same time I passed out in 2024 with 8.0 cgpa. After college I had a web developer internship opportunity in rural youth development institute in ponneri . During internship I independently developed a two client projects and I especially proud of my 2nd project'' The Family website '' which for Mr John k neethimanickam the founder and managing director of the dataquapps softwarecompany in banglore. Now i am seeking for Web developer role.",
+                "profile_view" : "https://git-rizwan.github.io/Portfolio/",
+                "profile_projects" : "https://git-rizwan.github.io/Portfolio/#PROJECT"
+            },
+            {
+                "id": 5,
+                "profile_banner": "img/Bg-Agriculture/Bg-5.jpg",
+                "student_profile": "img/2024/Nethaji.jpg",
+                "heading_secondary": "Nethaji",
+                "profile_skills": "HTML, CSS, JavaScript, Java, SQL, Projects and Internship",
+                "profile_content": "Passionate to learn code. Designing, developing and delivering high-volume, low-latency applications for mission-critical systems. strong background in supporting the design and development.","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 6,
+                "profile_banner": "img/Bg-Agriculture/Bg-6.jpg",
+                "student_profile": "img/2024/Linganand.jpg",
+                "heading_secondary": "Linganand",
+                "profile_skills": "Web Development, Spoken English, Computer Fundamentals, Projects, Internship",
+                "profile_content": "Hi, I am Linganand from Ponneri. I am pursuing BSc computer sciene in LNG.I had interested in Web Development during clg days. Then I joined RYDE FOUNDATION. I have completed Web Development class in Ryde Foundation.As a Frontend Developer and Web Developer, I have gained experience in creating responsive and user-friendly websites. I am proficient in HTML, CSS, JavaScript, and have hands-on experience with various frontend frameworks.","profile_view" : "#",
+                "profile_projects" : "#"
+            }
+        ],
+        "webdevelopment": [
+            {
+                "id": 1,
+                "profile_banner": "img/Bg-Agriculture/Bg-18.jpg",
+                "student_profile": "img/2024/Linganand.jpg",
+                "heading_secondary": "Linganand",
+                "profile_skills": "HTML, CSS, JavaScript, SQL, MongoDB, Git, Computer Fundamentals and Projects.",
+                "profile_content": "Hi, I am Linganand from Ponneri. I am pursuing BSc computer sciene in LNG.I had interested in Web Development during clg days. Then I joined RYDE FOUNDATION. I have completed Web Development class in Ryde Foundation.As a Frontend Developer and Web Developer, I have gained experience in creating responsive and user-friendly websites. I am proficient in HTML, CSS, JavaScript, and have hands-on experience with various frontend frameworks.","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 2,
+                "profile_banner": "img/Bg-Agriculture/Bg-8.jpg",
+                "student_profile": "img/2024/Kamalesh.jpg",
+                "heading_secondary": "Kamalesh",
+                "profile_skills": "HTML, CSS and Computer Fundamentals",
+                "profile_content": "Hi, I am Kamalesh from Annamalai cherry. I am pursuing BSc computer sciene in LNG. I have completed Web Development class in Ryde Foundation. I am a quick learner and great in team collaboration.","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 3,
+                "profile_banner": "img/Bg-Agriculture/Bg-9.jpg",
+                "student_profile": "img/2024/Uma_Maheshwari.jpg",
+                "heading_secondary": "Uma Maheshwari",
+                "profile_skills": "HTML, CSS, Spoken English, Computer Fundamentals, Scratch (Basic)",
+                "profile_content": "I am Uma Maheshwari. I'm pursuing final year B.C.A at L.N.Govt College. I have also completed fundamental basic, Spoken English, Html & css and scratch. I want this job because I believe it is a great fit for my skills and interests.I am eager to contribute to the team. I am motivated to learn and grow in this role, and I am confident that I can make a positive impact.","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 4,
+                "profile_banner": "img/Bg-Agriculture/Bg-10.jpg",
+                "student_profile": "img/2024/Murugan.jpg",
+                "heading_secondary": "Murugan",
+                "profile_skills": "HTML, CSS, Spoken English, Computer Fundamentals",
+                "profile_content": "Hi.. I am Murugan.J I have completed UG course at LNG College Ponneri. Also Completed Web development and javascript Course from Ryde Foundation. I also completed fundamental skills","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 5,
+                "profile_banner": "img/Bg-Agriculture/Bg-11.jpg",
+                "student_profile": "img/2024/Sanjay_kumar.jpg",
+                "heading_secondary": "Sanjay kumar",
+                "profile_skills": "HTML,CSS, Computer Fundamentals, Speed Typing",
+                "profile_content": "I am a dedicated and adaptable professional with a strong desire to contribute meaningfully to your team. My skills and experience align with the needs of your company, and I am confident that I can make a positive impact.","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 6,
+                "profile_banner": "img/Bg-Agriculture/Bg-12.jpg",
+                "student_profile": "img/2024/Nishalini.jpg",
+                "heading_secondary": "Nishalini",
+                "profile_skills": "HTML, CSS, Computer Fundamentals and Speed Typing",
+                "profile_content": "Hi. I am Nishalini, I have completed UG course at LNG College Ponneri. Also Completed Web development , Spoken English and fundamental of computer from Ryde Foundation.I believe I should be hired for this job because,I have the right skills , experience and passion that match the requirements of this position.","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 7,
+                "profile_banner": "img/Bg-Agriculture/Bg-13.jpg",
+                "student_profile": "img/2024/Swathi.jpg",
+                "heading_secondary": "Swathi",
+                "profile_skills": "HTML, CSS, SQL, Computer Fundamentals and Speed Typing.",
+                "profile_content": "Hi, I am Swathi and I am pursuing 3rd BCA in LNG Ponneri.I believed hired for this job because,I have the right skills , experience and passion that match the requirements of this position...","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 8,
+                "profile_banner": "img/Bg-Agriculture/Bg-14.jpg",
+                "student_profile": "img/2024/Ashik.jpg",
+                "heading_secondary": "Mohammed Ashik",
+                "profile_skills": "HTML, CSS, Computer Fundamentals and Speed Typing",
+                "profile_content": "Hi. I am Nishalini, I have completed UG course at LNG College Ponneri. Also Completed Web development , Spoken English and fundamental of computer from Ryde Foundation.I believe I should be hired for this job because,I have the right skills , experience and passion that match the requirements of this position.","profile_view" : "#",
+                "profile_projects" : "#"
+            }
+        ],
+        "fundamentals" : [
+            {
+                "id": 1,
+                "profile_banner": "img/Bg-Agriculture/Bg-15.jpg",
+                "student_profile": "img/2024/Sharmila.jpg",
+                "heading_secondary": "Sharmila",
+                "profile_skills": "Computer Fundamentals and Speed Typing",
+                "profile_content": "Hi, I am Sharmila, and I am currently in my third year, pursuing a degree in Plant Biology and Plant Biotechnology at L.N.G College, Ponneri. I live in Anupampattu, a place close to my heart. Alongside my studies, I have acquired skills in computer fundamentals and speed typing, which help me stay efficient and organized. I am passionate about plants and technology, striving to combine my academic knowledge with practical skills to achieve my goals.","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 2,
+                "profile_banner": "img/Bg-Agriculture/Bg-16.jpg",
+                "student_profile": "img/2024/Ashwini.jpg",
+                "heading_secondary": "Ashwini",
+                "profile_skills": "Computer Fundamentals and Speed Typing,Flimora (basic)",
+                "profile_content": "Hi, I am Ashwini from Minjur, and I am pursuing my 3rd year of B.A. Tamil at LNG. I have joined the Ryde Foundation Training Centre and am currently enrolled in the Computer Fundamentals course, which is providing me with valuable knowledge and learning opportunities. I am grateful for this chance to grow and enhance my skills.","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 3,
+                "profile_banner": "img/Bg-Agriculture/Bg-17.jpg",
+                "student_profile": "img/2024/Jenifer.jpg",
+                "heading_secondary": "Jenifer Mary",
+                "profile_skills": "Flimora (basic), Computer Fundamentals and Speed Typing.",
+                "profile_content": "I am Jenifer Mary, and I am pursuing a B.Sc. in Physics at L.N. Govt College. I have joined the Ryde Foundation Training Centre, where I am studying the Computer Fundamentals course. This opportunity is helping me gain more knowledge and grow my skills.","profile_view" : "#",
+                "profile_projects" : "#"
+            },
+            {
+                "id": 4,
+                "profile_banner": "img/Bg-Agriculture/Bg-7.jpg",
+                "student_profile": "img/2024/Nithya.jpg",
+                "heading_secondary": "Nithya",
+                "profile_skills": "Computer Fundamentals and Speed Typing",
+                "profile_content": "Hi. I am Nishalini, I have completed UG course at LNG College Ponneri. Also Completed Web development , Spoken English and fundamental of computer from Ryde Foundation.I believe I should be hired for this job because,I have the right skills , experience and passion that match the requirements of this position.","profile_view" : "#",
+                "profile_projects" : "#"
+            }
+        ],
+        "english" : [
+            {
+                "id": 1,
+                "profile_banner": "img/Bg-Agriculture/Bg-19.jpg",
+                "student_profile": "img/2024/Jenifer.jpg",
+                "heading_secondary": "Jenifer Mary",
+                "profile_skills": "Flimora (basic), Computer Fundamentals and Speed Typing.",
+                "profile_content": "Hi, I am Santhosh from Ponneri. I am currently pursuing a degree in Engineering at TJS Engineering College, Pudhuvoyal. I am passionate about technology and enjoy learning about innovative solutions to real-world problems. My academic journey has helped me develop skills in problem-solving, teamwork, and critical thinking. Beyond academics, I enjoy exploring new concepts, engaging in group projects, and participating in technical events. I am always eager to take on challenges that help me grow both personally and professionally. My goal is to excel in my field and contribute to impactful projects in the future.","profile_view" : "#",
+                "profile_projects" : "#"
+            }
+        ]
+    }
 ]
