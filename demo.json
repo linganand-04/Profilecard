@@ -175,10 +175,10 @@
         "english" : [
             {
                 "id": 1,
-                "profile_banner": "img/Bg-Agriculture/Bg-19.jpg",
-                "student_profile": "img/2024/Jenifer.jpg",
-                "heading_secondary": "Jenifer Mary",
-                "profile_skills": "Flimora (basic), Computer Fundamentals and Speed Typing.",
+                "profile_banner": "img/Bg-Agriculture/Bg-1.jpg",
+                "student_profile": "img/2024/Santhosh.jpg",
+                "heading_secondary": "Santhosh",
+                "profile_skills": "Speed Typing.",
                 "profile_content": "Hi, I am Santhosh from Ponneri. I am currently pursuing a degree in Engineering at TJS Engineering College, Pudhuvoyal. I am passionate about technology and enjoy learning about innovative solutions to real-world problems. My academic journey has helped me develop skills in problem-solving, teamwork, and critical thinking. Beyond academics, I enjoy exploring new concepts, engaging in group projects, and participating in technical events. I am always eager to take on challenges that help me grow both personally and professionally. My goal is to excel in my field and contribute to impactful projects in the future.","profile_view" : "#",
                 "profile_projects" : "#"
             }
