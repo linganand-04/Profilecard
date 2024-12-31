@@ -9,15 +9,21 @@ year.textContent = currentYear;
 
 const profile = document.querySelector("#students")
 const webdevelopment = document.querySelector("#webdevelopment")
+const fundamentals = document.querySelector("#funda")
+const english = document.querySelector("#engTyp")
 
 fetch('./demo.json')
-.then(res=> res.json())
-.then(data=>{
-  const intern = data[0].intership;
-  // const web = data[1].webdevelopment;
-  
-intern.forEach(post=> {
-profile.insertAdjacentHTML('beforeend', `<div class="new-profile">
+  .then(res => res.json())
+  .then(data => {
+    const intern = data[0].intership;
+    const web = data[0].webdevelopment;
+    const funda = data[0].fundamentals;
+    const eng = data[0].english;
+
+    // **** INTERNSHIP **** //
+
+    intern.forEach(post => {
+      profile.insertAdjacentHTML('beforeend', `<div class="new-profile">
 <div class="profile-bg">
   <img
     class="profile-banner"
@@ -45,80 +51,169 @@ profile.insertAdjacentHTML('beforeend', `<div class="new-profile">
   <a
     class="btn btn-1"
     target="_blank"
-    href="https://anand-45.netlify.app/"
+    href="${post.profile_view}"
     >View Profile</a
   >
   <a
     class="btn btn-2"
     target="_blank"
-    href="https://anand-45.netlify.app/#work"
+    href="${post.profile_projects}"
     >View Projects</a
   >
 </div>
 </div>`)
-})   
+    })
 
-// webdevelopment.forEach(post=> {
-//   web.insertAdjacentHTML('beforeend', `<div class="new-profile">
-//   <div class="profile-bg">
-//     <img
-//       class="profile-banner"
-//       src="${post.profile_banner}"
-//       alt="Coding Img"
-//     />
-//     <img
-//       class="student-profile"
-//       src="${post.student_profile}"
-//       alt="Paramanand"
-//     />
-//   </div>
-//   <h3 class="heading-secondary">${post.heading_secondary}</h3>
-//   <div class="content-box">
-//     <p class="skills">My skills</p>
-//     <p class="profile-skills">
-//       ${post.profile_skills}
-//     </p>
-//     <p class="profile-bio">Bio :</p>
-//     <p class="profile-content">
-//       ${post.profile_content}
-//     </p>
-//   </div>
-//   <div class="profile-link">
-//     <a
-//       class="btn btn-1"
-//       target="_blank"
-//       href="https://anand-45.netlify.app/"
-//       >View Profile</a
-//     >
-//     <a
-//       class="btn btn-2"
-//       target="_blank"
-//       href="https://anand-45.netlify.app/#work"
-//       >View Projects</a
-//     >
-//   </div>
-//   </div>`)
-//   }) 
-})
+    // **** WEB DEVELOPMENT **** //
 
-// 
+    web.forEach(post => {
+      webdevelopment.insertAdjacentHTML('beforeend', `<div class="new-profile">
+  <div class="profile-bg">
+    <img
+       class="profile-banner"
+       src="${post.profile_banner}"
+       alt="Coding Img"
+     />
+     <img
+       class="student-profile"
+       src="${post.student_profile}"
+       alt="Paramanand"
+     />
+   </div>
+   <h3 class="heading-secondary">${post.heading_secondary}</h3>
+   <div class="content-box">
+     <p class="skills">My skills</p>
+     <p class="profile-skills">
+       ${post.profile_skills}
+     </p>
+     <p class="profile-bio">Bio :</p>
+     <p class="profile-content">
+      ${post.profile_content}
+     </p>
+   </div>
+   <div class="profile-link">
+     <a
+       class="btn btn-1"
+       target="_blank"
+       href="${post.profile_view}"
+       >View Profile</a
+     >
+     <a
+       class="btn btn-2"
+       target="_blank"
+       href="${post.profile_projects}"
+       >View Projects</a
+     >
+   </div>
+   </div>`)
+    })
+
+    // **** COMPUTER FUNDAMENTAL **** //
+
+    funda.forEach(post => {
+      fundamentals.insertAdjacentHTML('beforeend', `<div class="new-profile">
+      <div class="profile-bg">
+        <img
+           class="profile-banner"
+           src="${post.profile_banner}"
+           alt="Coding Img"
+         />
+         <img
+           class="student-profile"
+           src="${post.student_profile}"
+           alt="Paramanand"
+         />
+       </div>
+       <h3 class="heading-secondary">${post.heading_secondary}</h3>
+       <div class="content-box">
+         <p class="skills">My skills</p>
+         <p class="profile-skills">
+           ${post.profile_skills}
+         </p>
+         <p class="profile-bio">Bio :</p>
+         <p class="profile-content">
+          ${post.profile_content}
+         </p>
+       </div>
+       <div class="profile-link">
+         <a
+           class="btn btn-1"
+           target="_blank"
+           href="${post.profile_view}"
+           >View Profile</a
+         >
+         <a
+           class="btn btn-2"
+           target="_blank"
+           href="${post.profile_projects}"
+           >View Projects</a
+         >
+       </div>
+       </div>`)
+    })
+
+   // ***** SPOKEN ENGLISH ***** //
+
+    eng.forEach(post => {
+      english.insertAdjacentHTML('beforeend', `<div class="new-profile">
+          <div class="profile-bg">
+            <img
+               class="profile-banner"
+               src="${post.profile_banner}"
+               alt="Coding Img"
+             />
+             <img
+               class="student-profile"
+               src="${post.student_profile}"
+               alt="Paramanand"
+             />
+           </div>
+           <h3 class="heading-secondary">${post.heading_secondary}</h3>
+           <div class="content-box">
+             <p class="skills">My skills</p>
+             <p class="profile-skills">
+               ${post.profile_skills}
+             </p>
+             <p class="profile-bio">Bio :</p>
+             <p class="profile-content">
+              ${post.profile_content}
+             </p>
+           </div>
+           <div class="profile-link">
+             <a
+               class="btn btn-1"
+               target="_blank"
+               href="${post.profile_view}"
+               >View Profile</a
+             >
+             <a
+               class="btn btn-2"
+               target="_blank"
+               href="${post.profile_projects}"
+               >View Projects</a
+             >
+           </div>
+           </div>`)
+    })
+  })
+
 
 // *************** Sticky For Profile Bio ******************** //
 
-    function applyStickyStyle() {
-      const bio = document.querySelectorAll(".profile-bio");
+function applyStickyStyle() {
+  const bio = document.querySelectorAll(".profile-bio");
 
-      bio.forEach((el) => {
-        const style = window.getComputedStyle(el);
-        if (style.position === 'sticky') {
-          el.style.color = 'black';
-          el.style.backgroundColor = 'white'
-        }
-      });
+  bio.forEach((el) => {
+    const style = window.getComputedStyle(el);
+    if (style.position === 'sticky') {
+      el.style.color = 'black';
+      el.style.backgroundColor = 'white'
     }
+  });
+}
 
-    // Call the function for specific elements
-    applyStickyStyle('.sticky');
+// Call the function for specific elements
+applyStickyStyle('.sticky');
 
 // ******** End of Sticky For Profile Bio ************ //
 
@@ -127,7 +222,7 @@ profile.insertAdjacentHTML('beforeend', `<div class="new-profile">
 const batch = document.querySelector(".batch");
 const batchYear = document.querySelector(".batch-year");
 
-batch.addEventListener('click', ()=>{
+batch.addEventListener('click', () => {
   batchYear.classList.toggle('batch-child')
 })
 
