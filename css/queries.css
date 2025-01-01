@@ -18,124 +18,140 @@
 /* BELOW 1345px ( SMALLER DESKTOPS ) */
 /**********************************/
 
-@media (max-width:1345px) {
+@media (max-width: 1345px) {
 
-
-    body{
-        background-color: pink;
-    }
-
-    .container-profile {
-        max-width: 1100px;
-        /* Temp */
-        margin-left: 35px;
-        margin-right: 250;
-      }
-  
+  .container-profile {
+    max-width: 1250px;
+    /* Temp */
+    margin-left: 20px;
+    margin-right: 220px;
+  }
 }
-
 
 /**********************************/
 /* BELOW 1200px ( LANDSCAPE TABLETS ) */
 /**********************************/
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
 
-    body{
-        background-color: aqua;
-    }
+  .container-profile {
+    max-width: 1100px;
+    /* Temp */
+    margin-left: 30px;
+    margin-right: 220px;
+  }
 
-    .container-profile {
-        max-width: 1100px;
-        /* Temp */
-        margin-left: 30px;
-        margin-right: 180px;
-      }
+  .profile-banner {
+    height: 150px;
+  }
 
-      .profile-banner{
-        height: 150px;
-      }
+  .grid--3--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-      .grid--3--cols {
-        grid-template-columns: repeat(3,270px);
+  nav button {
+    display: inline-block;
+  }
 
-      }
+  .nav__menu {
+    display: none;
+  }
 
-  
+
+
+
 }
-
 
 /**********************************/
 /* BELOW 945px ( TABLETS ) */
 /**********************************/
 
+@media (max-width: 900px) {
 
+  .container-profile {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .grid--3--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-@media (max-width:945px) {
-    body{
-        background-color: yellow ;
-    }
-
-    .container-profile {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-      .grid--3--cols {
-        grid-template-columns: 1fr 1fr;
-      }
+  .grid {
+    row-gap: 48px;
+    column-gap: 48px;
+    justify-content: center;
+  }
 }
 
 /**********************************/
 /* BELOW 700px ( SMALLER TABLETS ) */
 /**********************************/
 
-@media (max-width:700px) {
-    body{
-        background-color: orange ;
-    }
+@media (max-width: 700px) {
 
-    .container-profile {
-        max-width: 600px;
-      }
+  .container-profile {
+    max-width: 600px;
+    margin: 0 auto;
+  }
 
-      .grid--3--cols {
-        grid-template-columns: 1fr 1fr;
-      }
+  .grid--3--cols {
+    grid-template-columns: 350px;
+  }
 
-      
+  
 }
-
 
 /**********************************/
 /* BELOW 545px ( PHONES ) */
 /**********************************/
 
-@media (max-width:545px) {
-    body{
-        background-color: rgb(113, 218, 113) ;
-    }
+@media (max-width: 545px) {
 
-    .container-profile {
-        max-width: 400px;
-      }
+  .container-profile {
+    max-width: 450px;
+  }
 
-      .grid--3--cols {
-        grid-template-columns: 1fr;
-      }
+  .heading-secondary {
+    font-size: 16px;
+  }
+
+  .skills,
+  .profile-skills,
+  .profile-bio,
+  .profile-content {
+    font-size: 12px;
+  }
+
+  .profile-link a:link,
+  .profile-link a:active {
+    font-size: 8px;
+  }
 }
 
 /**********************************/
 /* BELOW 420px ( LARGER PHONES ) */
 /**********************************/
 
-@media (max-width:420px) {
-  
+@media (max-width: 420px) {
+  .container-profile {
+    max-width: 400px;
+  }
+
+  .grid--3--cols {
+    grid-template-columns: 325px;
+  }
 }
 
 /**********************************/
 /* BELOW 380px ( SMALLER PHONES ) */
 /**********************************/
 
-@media (max-width:380px) {
-  
+@media (max-width: 380px) {
+  .container-profile {
+    max-width: 350px;
+  }
+
+  .grid--3--cols {
+    grid-template-columns: 300px;
+  }
 }

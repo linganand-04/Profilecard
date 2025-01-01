@@ -5,16 +5,16 @@ year.textContent = currentYear;
 
 // End //
 
-// 
+//
 
-const profile = document.querySelector("#students")
-const webdevelopment = document.querySelector("#webdevelopment")
-const fundamentals = document.querySelector("#funda")
-const english = document.querySelector("#engTyp")
+const profile = document.querySelector("#students");
+const webdevelopment = document.querySelector("#webdevelopment");
+const fundamentals = document.querySelector("#funda");
+const english = document.querySelector("#engTyp");
 
-fetch('./demo.json')
-  .then(res => res.json())
-  .then(data => {
+fetch("./demo.json")
+  .then((res) => res.json())
+  .then((data) => {
     const intern = data[0].intership;
     const web = data[0].webdevelopment;
     const funda = data[0].fundamentals;
@@ -22,8 +22,10 @@ fetch('./demo.json')
 
     // **** INTERNSHIP **** //
 
-    intern.forEach(post => {
-      profile.insertAdjacentHTML('beforeend', `<div class="new-profile">
+    intern.forEach((post) => {
+      profile.insertAdjacentHTML(
+        "beforeend",
+        `<div class="new-profile">
 <div class="profile-bg">
   <img
     class="profile-banner"
@@ -61,13 +63,16 @@ fetch('./demo.json')
     >View Projects</a
   >
 </div>
-</div>`)
-    })
+</div>`
+      );
+    });
 
     // **** WEB DEVELOPMENT **** //
 
-    web.forEach(post => {
-      webdevelopment.insertAdjacentHTML('beforeend', `<div class="new-profile">
+    web.forEach((post) => {
+      webdevelopment.insertAdjacentHTML(
+        "beforeend",
+        `<div class="new-profile">
   <div class="profile-bg">
     <img
        class="profile-banner"
@@ -105,13 +110,16 @@ fetch('./demo.json')
        >View Projects</a
      >
    </div>
-   </div>`)
-    })
+   </div>`
+      );
+    });
 
     // **** COMPUTER FUNDAMENTAL **** //
 
-    funda.forEach(post => {
-      fundamentals.insertAdjacentHTML('beforeend', `<div class="new-profile">
+    funda.forEach((post) => {
+      fundamentals.insertAdjacentHTML(
+        "beforeend",
+        `<div class="new-profile">
       <div class="profile-bg">
         <img
            class="profile-banner"
@@ -149,13 +157,16 @@ fetch('./demo.json')
            >View Projects</a
          >
        </div>
-       </div>`)
-    })
+       </div>`
+      );
+    });
 
-   // ***** SPOKEN ENGLISH ***** //
+    // ***** SPOKEN ENGLISH ***** //
 
-    eng.forEach(post => {
-      english.insertAdjacentHTML('beforeend', `<div class="new-profile">
+    eng.forEach((post) => {
+      english.insertAdjacentHTML(
+        "beforeend",
+        `<div class="new-profile">
           <div class="profile-bg">
             <img
                class="profile-banner"
@@ -193,9 +204,10 @@ fetch('./demo.json')
                >View Projects</a
              >
            </div>
-           </div>`)
-    })
-  })
+           </div>`
+      );
+    });
+  });
 
 
 // *************** Sticky For Profile Bio ******************** //
@@ -205,15 +217,15 @@ function applyStickyStyle() {
 
   bio.forEach((el) => {
     const style = window.getComputedStyle(el);
-    if (style.position === 'sticky') {
-      el.style.color = 'black';
-      el.style.backgroundColor = 'white'
+    if (style.position === "sticky") {
+      el.style.color = "black";
+      el.style.backgroundColor = "white";
     }
   });
 }
 
 // Call the function for specific elements
-applyStickyStyle('.sticky');
+applyStickyStyle(".sticky");
 
 // ******** End of Sticky For Profile Bio ************ //
 
@@ -222,26 +234,29 @@ applyStickyStyle('.sticky');
 const batch = document.querySelector(".batch");
 const batchYear = document.querySelector(".batch-year");
 
-batch.addEventListener('click', () => {
-  batchYear.classList.toggle('batch-child')
-})
+batch.addEventListener("click", () => {
+  batchYear.classList.toggle("batch-child");
+});
 
 // ************************ //
 
 //change navbar stcccle//
 
 window.addEventListener("scroll", () => {
-  document.querySelector(".main-nav")
+  document
+    .querySelector(".main-nav")
     .classList.toggle("window_scroll", window.scrollY > 0);
 });
 
 window.addEventListener("scroll", () => {
-  document.querySelector(".container-navbar-2")
+  document
+    .querySelector(".container-navbar-2")
     .classList.toggle("navbar-2-scroll", window.scrollY > 0);
 });
 
 window.addEventListener("scroll", () => {
-  document.querySelector(".course")
+  document
+    .querySelector(".course")
     .classList.toggle("course-scroll", window.scrollY > 0);
 });
 
@@ -250,7 +265,6 @@ window.addEventListener("scroll", () => {
     item.classList.toggle("list-items-scroll", window.scrollY > 0);
   });
 });
-
 
 // *********************************
 
@@ -276,6 +290,7 @@ const closebtn = document.querySelector("#close-menu-btn ");
 
 menubtn.addEventListener("click", () => {
   menu.style.display = "flex";
+  menu.style.flexDirection = "column";
   closebtn.style.display = "inline-block";
   menubtn.style.display = "none";
 });
