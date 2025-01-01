@@ -21,9 +21,11 @@
 body {
   font-family: "montserrat", sans-serif;
   color: #000;
+  overflow-x: hidden;
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -244,7 +246,7 @@ nav button {
   margin: 0 auto;
   /* Temp */
   margin-left: 50px;
-  margin-right: 250px;
+  margin-right: 200px;
 }
 
 #internship,
@@ -269,10 +271,6 @@ nav button {
 
 .grid:not(last-child) {
   margin-bottom: 0px;
-}
-
-.grid--2--cols {
-  grid-template-columns: 1fr 1fr;
 }
 
 .grid--3--cols {
@@ -326,7 +324,7 @@ nav button {
 
 .student-profile {
   filter: brightness(1);
-  width: 125px;
+  max-width: 125px;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.6);
   border-radius: 50%;
   border: 10px solid rgba(0, 0, 0, 0.07);
