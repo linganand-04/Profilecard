@@ -233,10 +233,15 @@ applyStickyStyle(".sticky");
 
 const batch = document.querySelector(".batch");
 const batchYear = document.querySelector(".batch-year");
+const body = document.querySelector("#body")
 
 batch.addEventListener("click", () => {
   batchYear.classList.toggle("batch-child");
 });
+
+body.addEventListener("click", () => {
+  batchYear.classList.remove("batch-child");
+},true);
 
 // ************************ //
 

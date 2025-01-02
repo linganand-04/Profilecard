@@ -514,7 +514,7 @@ footer {
     width: 100%;
     height: 5.8rem;
     animation: animatenavitems 400ms linear forwards;
-    transform-origin: top right;
+    /* transform-origin: top right; */
     opacity: 0;
   }
   .nav__menu li a {
