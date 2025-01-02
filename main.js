@@ -289,9 +289,11 @@ faqs.forEach((faq) => {
   });
 });
 //===========show /hide nav menu==========//
+
 const menu = document.querySelector(".nav__menu ");
 const menubtn = document.querySelector("#open-menu-btn ");
 const closebtn = document.querySelector("#close-menu-btn ");
+
 
 menubtn.addEventListener("click", () => {
   menu.style.display = "flex";
@@ -308,3 +310,24 @@ const closenav = () => {
   menubtn.style.display = "inline-block";
 };
 closebtn.addEventListener("click", closenav);
+
+
+// // Select all instances of the menu buttons and close buttons
+// const menus = document.querySelectorAll('.nav');
+
+// menus.forEach(menu => {
+//   const menubtn = menu.querySelector('.open-menu-btn');
+//   const closebtn = menu.querySelector('.close-menu-btn');
+//   const menuContent = menu.querySelector('.nav__menu');
+
+//   // When the open button is clicked, show the menu
+//   menubtn.addEventListener('click', () => {
+//     menuContent.classList.add('open');
+//   });
+
+//   // When the close button is clicked, hide the menu
+//   closebtn.addEventListener('click', () => {
+//     menuContent.classList.remove('open');
+//   });
+// });
+

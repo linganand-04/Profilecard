@@ -21,7 +21,7 @@
 body {
   font-family: "montserrat", sans-serif;
   color: #000;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 html {
@@ -76,7 +76,7 @@ a {
   align-items: center;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -91,6 +91,8 @@ a {
 
 nav button {
   display: none;
+  position: absolute;
+  right: 25px;
 }
 
 .nav__menu {
