@@ -224,7 +224,7 @@
   }
   
   .course-scroll {
-  background: #181818;
+  background: transparent;
   color: white;
   }
   
@@ -480,7 +480,7 @@
   .grid-footer {
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
   display: grid;
-  column-gap: 48px;
+  gap: 48px;
   }
   
   .home-cols {
