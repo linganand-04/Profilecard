@@ -95,6 +95,11 @@ nav button {
   right: 25px;
 }
 
+#open-menu-btn,
+#close-menu-btn{
+  display: none;
+}
+
 .nav__menu {
   display: flex;
   align-items: center;
@@ -230,6 +235,16 @@ nav button {
   justify-content: space-between;
 }
 
+.course-list-items{
+  display: flex;
+}
+
+
+.list-items-icon{
+  font-size: 32px;
+  display: none;
+}
+
 .list-items {
   font-size: 16px;
   color: #000;
@@ -237,6 +252,10 @@ nav button {
 
 .list-items-scroll {
   color: white;
+}
+
+.list-items-icon-scroll {
+  color: #00bf8c;
 }
 
 /**********************************/

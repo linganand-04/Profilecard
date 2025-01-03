@@ -271,6 +271,12 @@ window.addEventListener("scroll", () => {
   });
 });
 
+window.addEventListener("scroll", () => {
+  document.querySelectorAll(".list-items-icon").forEach((item) => {
+    item.classList.toggle("list-items-icon-scroll", window.scrollY > 0);
+  });
+});
+
 // *********************************
 
 //show /hide faq answer//
@@ -312,6 +318,7 @@ const closenav = () => {
 closebtn.addEventListener("click", closenav);
 
 
+<<<<<<< HEAD
 // // Select all instances of the menu buttons and close buttons
 // const menus = document.querySelectorAll('.nav');
 
@@ -331,3 +338,5 @@ closebtn.addEventListener("click", closenav);
 //   });
 // });
 
+=======
+>>>>>>> 04d0794707fd7f8069c2d016fc4d2d9efddfa901
