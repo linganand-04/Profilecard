@@ -271,6 +271,12 @@ window.addEventListener("scroll", () => {
   });
 });
 
+window.addEventListener("scroll", () => {
+  document.querySelectorAll(".list-items-icon").forEach((item) => {
+    item.classList.toggle("list-items-icon-scroll", window.scrollY > 0);
+  });
+});
+
 // *********************************
 
 //show /hide faq answer//
@@ -308,3 +314,5 @@ const closenav = () => {
   menubtn.style.display = "inline-block";
 };
 closebtn.addEventListener("click", closenav);
+
+

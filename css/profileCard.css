@@ -93,6 +93,11 @@ nav button {
   display: none;
 }
 
+#open-menu-btn,
+#close-menu-btn{
+  display: none;
+}
+
 .nav__menu {
   display: flex;
   align-items: center;
@@ -228,6 +233,16 @@ nav button {
   justify-content: space-between;
 }
 
+.course-list-items{
+  display: flex;
+}
+
+
+.list-items-icon{
+  font-size: 32px;
+  display: none;
+}
+
 .list-items {
   font-size: 16px;
   color: #000;
@@ -235,6 +250,10 @@ nav button {
 
 .list-items-scroll {
   color: white;
+}
+
+.list-items-icon-scroll {
+  color: #00bf8c;
 }
 
 /**********************************/
@@ -603,4 +622,18 @@ hr {
     transform: rotateZ(0) rotateX(0) scale(1);
     opacity: 1;
   }
+}
+
+/* ====================nth child chnages================== */
+.nav__menu li:nth-child(2) {
+  animation-delay: 200ms;
+}
+.nav__menu li:nth-child(3) {
+  animation-delay: 400ms;
+}
+.nav__menu li:nth-child(4) {
+  animation-delay: 600ms;
+}
+.nav__menu li:nth-child(5) {
+  animation-delay: 800ms;
 }
