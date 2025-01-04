@@ -129,12 +129,22 @@
                 "profile_content": "I am Mohammed Ashik. I am from ponneri. iam pursuing final year B.C.A at L.N.Govt college,ponneri. I have also completed HTML/CSS, fundamental basic and speed  typing. I am confident that my dedication and unique abilities will contribute positivity to your team's success",
                 "profile_view" : "#",
                 "profile_projects" : "#"
+            },
+            {
+                "id": 9,
+                "profile_banner": "img/Bg-Agriculture/Bg-15.jpg",
+                "student_profile": "img/2024/Gopika.jpg",
+                "heading_secondary": "Gopika",
+                "profile_skills": "HTML, CSS, SQL, Speed Typing",
+                "profile_content": "Hi, I'm Gopika from Arasur. I am pursuing Bsc Computer science at LN Government College in Ponneri. I am enthusiastic, self-motivated, reliable, responsible, hard working person and team worker",
+                "profile_view" : "#",
+                "profile_projects" : "#"
             }
         ],
         "fundamentals" : [
             {
                 "id": 1,
-                "profile_banner": "img/Bg-Agriculture/Bg-15.jpg",
+                "profile_banner": "img/Bg-Agriculture/Bg-16.jpg",
                 "student_profile": "img/2024/Sharmila.jpg",
                 "heading_secondary": "Sharmila",
                 "profile_skills": "Computer Fundamentals and Speed Typing",
@@ -144,7 +154,7 @@
             },
             {
                 "id": 2,
-                "profile_banner": "img/Bg-Agriculture/Bg-16.jpg",
+                "profile_banner": "img/Bg-Agriculture/Bg-17.jpg",
                 "student_profile": "img/2024/Ashwini.jpg",
                 "heading_secondary": "Ashwini",
                 "profile_skills": "Computer Fundamentals, Flimora (Basic) and Speed Typing",
@@ -154,7 +164,7 @@
             },
             {
                 "id": 3,
-                "profile_banner": "img/Bg-Agriculture/Bg-17.jpg",
+                "profile_banner": "img/Bg-Agriculture/Bg-1.jpg",
                 "student_profile": "img/2024/Jenifer.jpg",
                 "heading_secondary": "Jenifer Mary",
                 "profile_skills": "Computer Fundamentals, Flimora (Basic) and Speed Typing.",
@@ -164,7 +174,7 @@
             },
             {
                 "id": 4,
-                "profile_banner": "img/Bg-Agriculture/Bg-7.jpg",
+                "profile_banner": "img/Bg-Agriculture/Bg-2.jpg",
                 "student_profile": "img/2024/Nithya.jpg",
                 "heading_secondary": "Nithya",
                 "profile_skills": "Computer Fundamentals and Speed Typing",
@@ -174,7 +184,7 @@
             },
             {
                 "id": 5,
-                "profile_banner": "img/Bg-Agriculture/Bg-1.jpg",
+                "profile_banner": "img/Bg-Agriculture/Bg-3.jpg",
                 "student_profile": "img/2024/Santhosh.jpg",
                 "heading_secondary": "Santhosh",
                 "profile_skills": "Computer Fundamentals and Speed Typing",
