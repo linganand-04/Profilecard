@@ -10,7 +10,6 @@ year.textContent = currentYear;
 const profile = document.querySelector("#students");
 const webdevelopment = document.querySelector("#webdevelopment");
 const fundamentals = document.querySelector("#funda");
-const english = document.querySelector("#engTyp");
 
 fetch("./demo.json")
 .then((res) => res.json())
@@ -161,52 +160,6 @@ fundamentals.insertAdjacentHTML(
 );
 });
 
-// ***** SPOKEN ENGLISH ***** //
-
-eng.forEach((post) => {
-english.insertAdjacentHTML(
-"beforeend",
-`<div class="new-profile">
-         <div class="profile-bg">
-           <img
-              class="profile-banner"
-              src="${post.profile_banner}"
-              alt="Coding Img"
-            />
-            <img
-              class="student-profile"
-              src="${post.student_profile}"
-              alt="Paramanand"
-            />
-          </div>
-          <h3 class="heading-secondary">${post.heading_secondary}</h3>
-          <div class="content-box">
-            <p class="skills">My skills</p>
-            <p class="profile-skills">
-              ${post.profile_skills}
-            </p>
-            <p class="profile-bio">Bio :</p>
-            <p class="profile-content">
-             ${post.profile_content}
-            </p>
-          </div>
-          <div class="profile-link">
-            <a
-              class="btn btn-1"
-              target="_blank"
-              href="${post.profile_view}"
-              >View Profile</a
-            >
-            <a
-              class="btn btn-2"
-              target="_blank"
-              href="${post.profile_projects}"
-              >View Projects</a
-            >
-          </div>
-          </div>`
-);
-});
 });
 
 
@@ -233,7 +186,7 @@ applyStickyStyle(".sticky");
 
 const batch = document.querySelector(".batch");
 const batchYear = document.querySelector(".batch-year");
-const body = document.querySelector("#body")
+const body = document.querySelector("body")
 
 batch.addEventListener("click", () => {
 batchYear.classList.toggle("batch-child");
