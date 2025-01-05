@@ -146,6 +146,32 @@
 }
 
 /**********************************/
+/* BELOW 1024px ( DESKTOP MODE ) */
+/**********************************/
+
+@media (max-width: 1024px){
+  .heading-secondary {
+    font-size: 16px;
+}
+
+.skills,
+.profile-skills,
+.profile-content{
+  font-size: 13px;
+}
+
+.profile-bio{
+  font-size: 14px;
+}
+
+.profile-link a:link,
+  .profile-link a:active{
+    font-size: 9px;
+  }
+
+}
+
+/**********************************/
 /* BELOW 900px ( TABLETS ) */
 /**********************************/
 
@@ -315,67 +341,67 @@
   .list-items-icon {
     font-size: 28px;
   }
-
+  
   .ryde-heading {
     font-size: 18px;
   }
-
+  
   .container-profile {
     max-width: 450px;
   }
-
+  
   .heading-secondary {
     font-size: 16px;
   }
-
+  
   .skills,
   .profile-skills,
   .profile-bio,
   .profile-content {
     font-size: 12px;
   }
-
+  
   .profile-link a:link,
   .profile-link a:active {
     font-size: 8px;
   }
-
+  
   .nav-menu,
   .rules-menu {
     font-size: 12px;
   }
-
+  
   /* FOOTER */
-
+  
   .container-footer {
     max-width: 500px;
   }
-
+  
   .grid-footer {
     column-gap: 10px;
-}
-
+  }
+  
   .footer-heading {
     font-size: 14px;
   }
-
+  
   .ryde-heading {
     font-size: 16px;
   }
-
+  
   .social-links li svg {
     height: 20px;
   }
-
+  
   .address p,
   .contact p{
     font-size: 11px;
   }
-
+  
   .copyright {
     font-size: 10px;
   }
-
+  
   .credits {
     font-size: 10px;
   }
@@ -397,37 +423,35 @@
   .grid--3--cols {
     grid-template-columns: 325px;
   }
-
+  
   /* FOOTER */
-
+  
   .container-footer {
     max-width: 400px;
   }
-
+  
   .grid-footer {
     column-gap: 20px;
   }
-
+  
   .footer-heading {
     font-size: 12px;
   }
-
+  
   .ryde-heading {
     font-size: 14px;
-    letter-spacing: normal;
   }
-
+  
   .social-links {
     gap: 16px;
   }
-
+  
   .address p{
     font-size: 10px;
   }
-
+  
   .contact p {
     font-size: 10px;
-    letter-spacing: 1.1px;
   }
 
   .nav-menu,
@@ -480,7 +504,7 @@
 /* BELOW 320px ( SMALLER PHONES ) */
 /**********************************/
 
-@media (max-width: 380px) {
+@media (max-width: 320px) {
 
 /* FOOTER */
 
@@ -493,12 +517,13 @@
 }
 
 .ryde-heading {
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .address p,
   .contact p{
     font-size: 9px;
+    letter-spacing: normal;
   }
 
   .social-links li svg {
