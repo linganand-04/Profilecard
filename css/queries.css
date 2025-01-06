@@ -18,7 +18,7 @@
 /* BELOW 1345px ( SMALLER DESKTOPS ) */
 /**********************************/
 
-@media (max-width: 1345px) {
+@media(max-width: 1345px) {
 
   .container-profile {
     max-width: 1250px;
@@ -32,7 +32,7 @@
 /* BELOW 1200px ( LANDSCAPE TABLETS ) */
 /**********************************/
 
-@media (max-width: 1200px) {
+@media(max-width: 1200px) {
 
   .container-profile {
     max-width: 1100px;
@@ -149,7 +149,7 @@
 /* BELOW 1024px ( DESKTOP MODE ) */
 /**********************************/
 
-@media (max-width: 1024px){
+@media(max-width: 1024px){
   .heading-secondary {
     font-size: 16px;
 }
@@ -175,7 +175,7 @@
 /* BELOW 900px ( TABLETS ) */
 /**********************************/
 
-@media (max-width: 900px) {
+@media(max-width: 900px) {
 
   .container-profile {
     max-width: 800px;
@@ -263,7 +263,7 @@
 /* BELOW 700px ( SMALLER TABLETS ) */
 /**********************************/
 
-@media (max-width: 700px) {
+@media(max-width: 700px) {
 
   .container-profile {
     max-width: 600px;
@@ -320,7 +320,7 @@
 /* BELOW 545px ( PHONES ) */
 /**********************************/
 
-@media (max-width: 545px) {
+@media(max-width: 545px) {
 
   #internship,
   #projects,
@@ -387,19 +387,23 @@
   
   .ryde-heading {
     font-size: 16px;
+    margin-bottom: 36px;
   }
   
   .social-links li svg {
     height: 20px;
   }
   
-  .address p,
+  .address p{
+    font-size: 11px;
+  }
+
   .contact p{
     font-size: 11px;
   }
   
   .copyright {
-    font-size: 10px;
+    font-size: 9px;
   }
   
   .credits {
@@ -411,7 +415,7 @@
 /* BELOW 420px ( LARGER PHONES ) */
 /**********************************/
 
-@media (max-width: 420px) {
+@media(max-width: 420px) {
   .container-profile {
     max-width: 400px;
   }
@@ -431,40 +435,53 @@
   }
   
   .grid-footer {
-    column-gap: 20px;
+    column-gap: 12px;
   }
+
+  .contact-cols {
+    gap: 6px;
+}
   
   .footer-heading {
-    font-size: 12px;
+    font-size: 10px;
   }
   
   .ryde-heading {
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .social-links {
     gap: 16px;
   }
+
+  .social-links li svg {
+    height: 16px;
+}
   
   .address p{
     font-size: 10px;
   }
   
   .contact p {
-    font-size: 10px;
+    font-size: 9px;
+    letter-spacing: 1.1px;
   }
 
   .nav-menu,
   .rules-menu {
     font-size: 11px;
   }
+
+  .copyright {
+    font-size: 9px;
+  }
 }
 
 /**********************************/
-/* BELOW 380px ( SMALLER PHONES ) */
+/* BELOW 375px ( SMALLER PHONES ) */
 /**********************************/
 
-@media (max-width: 380px) {
+@media(max-width: 375px) {
   .container-profile {
     max-width: 350px;
   }
@@ -483,28 +500,42 @@
 
   /* FOOTER */
 
+  
+  .container-footer {
+    max-width: 375px;
+  }
+
   .grid-footer {
-    column-gap: 0px;
+    column-gap: 4px;
   }
 
   .footer-heading {
-    font-size: 11px;
+    font-size: 9px;
+    margin-bottom: 24px;
   }
 
   .ryde-heading {
-    font-size: 12px;
+    font-size: 10px;
+    margin-bottom: 32px;
   }
 
-  .copyright {
-    font-size: 11px;
+  .social-links {
+    gap: 14px;
   }
+
+  .address p,
+  .contact p{
+    font-size: 9px;
+    letter-spacing: normal;
+  }
+
 }
 
 /**********************************/
 /* BELOW 320px ( SMALLER PHONES ) */
 /**********************************/
 
-@media (max-width: 320px) {
+@media(max-width: 320px) {
 
 /* FOOTER */
 
@@ -518,20 +549,25 @@
 
 .ryde-heading {
   font-size: 10px;
+  letter-spacing: normal;
 }
 
 .address p,
   .contact p{
-    font-size: 9px;
+    font-size: 8px;
     letter-spacing: normal;
   }
 
   .social-links li svg {
-    height: 16px;
+    height: 14px;
+}
+
+.social-links {
+  gap: 12px;
 }
 
 .copyright {
-  font-size: 9px;
+  font-size: 8px;
 }
 
 }
