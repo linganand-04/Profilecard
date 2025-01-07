@@ -29,12 +29,12 @@ profile.insertAdjacentHTML(
  <img
    class="profile-banner"
    src="${post.profile_banner}"
-   alt="Coding Img"
+   alt="${post.banner_error}"
  />
  <img
    class="student-profile"
    src="${post.student_profile}"
-   alt="Paramanand"
+   alt="${post.profile_error}"
  />
 </div>
 <h3 class="heading-secondary">${post.heading_secondary}</h3>
@@ -76,12 +76,12 @@ webdevelopment.insertAdjacentHTML(
    <img
       class="profile-banner"
       src="${post.profile_banner}"
-      alt="Coding Img"
+      alt="${post.banner_error}"
     />
     <img
       class="student-profile"
       src="${post.student_profile}"
-      alt="Paramanand"
+      alt="${post.profile_error}"
     />
   </div>
   <h3 class="heading-secondary">${post.heading_secondary}</h3>
@@ -123,12 +123,12 @@ fundamentals.insertAdjacentHTML(
        <img
           class="profile-banner"
           src="${post.profile_banner}"
-          alt="Coding Img"
+          alt="${post.banner_error}"
         />
         <img
           class="student-profile"
           src="${post.student_profile}"
-          alt="Paramanand"
+          alt="${post.profile_error}"
         />
       </div>
       <h3 class="heading-secondary">${post.heading_secondary}</h3>
