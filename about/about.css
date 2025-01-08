@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  /* ===========================about__achievements=================================================== */
+  .about__achievements {
+    margin-top: 7rem;
+  }
+  .about__achievements-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+  }
+  .about__achievements-right > p {
+    margin: 1.6rem 0 2.5rem;
+  }
+  .achievements__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .achievements__card {
+    background-color: #88bd8c;
+  
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 400ms ease;
+  }
+  .achievements__card:hover {
+    background: rgb(218, 215, 215);
+  
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.5);
+  }
+  .achievements__icon {
+    background: #1ca027;
+  
+    padding: 0.5rem;
+    border-radius: 30%;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    /* color: black; */
+  }
+  /* =======================media queries (tablet)===================== */
+  
+  /* body {
+    background-color: brown;
+  } */
+  @media screen and (max-width: 1024px) {
+    .about__achievements {
+      margin-top: 2rem;
+    }
+    .about__achievements-container {
+      grid-template-columns: 1fr;
+      gap: 4rem;
+    }
+    .about__achievements-left {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  /* =======================media queries (mobile)===================== */
+  @media screen and (max-width: 600px) {
+    .achievements__cards {
+      grid-template-columns: 1fr 1fr;
+      gap: 0.7rem;
+    }
+  }
+  
+  /* ===========================about__team member=================================================== */
+  /* ================================== */
+  .wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+    overflow-x: hidden;
+  }
+  .testimonials {
+    background: azure;
+  
+    max-width: 1200px;
+    margin: 0 32px;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 20px 6px rgba(0, 0, 0, 0.2);
+  }
+  .title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .title h2 {
+    font-weight: 300;
+    color: green;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 32px;
+  }
+  .title h2 span {
+    font-weight: 600;
+  }
+  p span {
+    color: green;
+    font-weight: 800;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+  .client-thumbnail img {
+    width: 100%;
+  }
+  .client-thumbnail {
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
+  .clients-tabs {
+    margin-bottom: 24px;
+  }
+  .client-intro .client-name {
+    color: black;
+    margin-top: 1rem;
+  }
+  .client-intro .client-designation {
+    font-size: 12px;
+    color: #635b5b;
+  }
+  .client-intro .client-description {
+    display: none;
+  }
+  .client-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid green;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .client-item:first-child {
+    margin-top: 0;
+  }
+  .client-item:last-child {
+    margin-bottom: 0;
+  }
+  .client-item:hover {
+    background-color: green;
+  }
+  .client-item:hover .client-intro * {
+    color: #fff;
+  }
+  .client-item:active {
+    transform: translateY(3px);
+  }
+  .client-item.active {
+    background-color: green;
+  }
+  .client-item.active .client-intro * {
+    color: #fff;
+  }
+  
+  .show-img img {
+    border-radius: 2px;
+  }
+  .show-text > div {
+    padding: 12px 0;
+  }
+  .show-text .show-name {
+    font-size: 20px;
+    color: green;
+  }
+  .show-text .show-designation {
+    color: #b1b1b1;
+  }
+  .show-text .show-description {
+    margin: 20px 0;
+    font-weight: 300;
+    color: #686868;
+    line-height: 1.4;
+  }
+  .show-text a {
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px;
+    display: inline-block;
+    margin-top: 8px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .show-text a:hover {
+    background-color: #18a040;
+  }
+  
+  @media (min-width: 768px) {
+    .testimonials {
+      padding: 20px 40px;
+    }
+    .content {
+      flex-direction: row;
+    }
+    .clients-list {
+      width: 30%;
+    }
+    .show-info {
+      width: calc(70% - 30px);
+      margin-left: 30px;
+    }
+    .clients-tabs {
+      margin-bottom: 0px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .show-info {
+      display: flex;
+      align-items: flex-start;
+    }
+    .show-img {
+      margin-right: 30px;
+      height: 70%;
+    }
+    .show-img img {
+      width: 280px;
+      object-fit: cover;
+      height: 70%;
+      margin-top: 5rem;
+    }
+  }
+  
