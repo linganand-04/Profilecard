@@ -80,8 +80,7 @@
   }
   .testimonials {
     background: azure;
-  
-    max-width: 1200px;
+    width:100% ;
     margin: 0 32px;
     padding: 16px;
     border-radius: 4px;
@@ -224,18 +223,20 @@
   
   @media (min-width: 992px) {
     .show-info {
-      display: flex;
-      align-items: flex-start;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 1.5fr;
     }
     .show-img {
       margin-right: 30px;
       height: 70%;
     }
-    .show-img img {
+    /* .show-img img {
       width: 280px;
       object-fit: cover;
+      background-position: top;
       height: 70%;
       margin-top: 5rem;
-    }
+    } */
   }
   
