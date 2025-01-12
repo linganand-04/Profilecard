@@ -2,21 +2,30 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-10KG0FBPTW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-10KG0FBPTW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-10KG0FBPTW');
-</script>
+      gtag("config", "G-10KG0FBPTW");
+    </script>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible"content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Ryde Foundation - About Us
-    </title>
-    <link rel = "icon" type = "image/png" href = "new img/RydeLogo (1).png" height="200" width="800">
+    <title>Ryde Foundation - About Us</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/logos/Ryde_Logo.png"
+      height="200"
+      width="800"
+    />
 
     <!-- ====================iconscout cdn====================== -->
     <link
@@ -37,8 +46,10 @@
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
     <!-- =====================css link================================== -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="about.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    
 
     <!-- ========================background setting================ -->
     <!-- <style>
@@ -51,8 +62,10 @@
     <!-- ==================nav bar==================================== -->
     <nav>
       <div class="container nav__container">
-        <div class="logo"><img src="img/logos/Ryde_Logo.png" alt="Ryde_Logo Missing" /></div>
-        <a href="index.html"><h4 class="logo-title">RYDE FOUNDATION</h4></a>
+        <div class="logo">
+          <img src="img/logos/Ryde_Logo.png" alt="Ryde_Logo Missing" />
+          <a href="index.html"><h4 class="logo-title">RYDE FOUNDATION</h4></a>
+        </div>
         <ul class="nav__menu">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">AboutUs</a></li>
@@ -60,13 +73,12 @@
           <li class="batch">
             <a>OurStudents</a>
             <div class="batch-year">
-            <ul>
-            <li><a href="profileCard23.html">Batch 2023</a></li>
-            <li><a href="profileCard24.html">Batch 2024</a></li>
-            </ul>
+              <ul>
+                <li><a href="profileCard23.html">Batch 2023</a></li>
+                <li><a href="profileCard24.html">Batch 2024</a></li>
+              </ul>
             </div>
-            </li>
-         
+          </li>
 
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -132,32 +144,44 @@
               <!-- item -->
               <div class="client-item">
                 <div class="client-thumbnail">
-                  <img src="img/Solomon.jpg"  alt="Solomon img Missing "/>
+                  <img src="img/Solomon.jpg" alt="Solomon img Missing " />
                 </div>
                 <div class="client-intro">
                   <h5 class="client-name">Jayanthan Solomon</h5>
-                  <small class="client-designation"> Founder & Manging Trustee</small>
-                  <p class="client-description">
-                    <span>Education</span> <br>
-                    1974 - 1979	:  
-                  Bachelor of Technology in Electrical (Power)	<br>
-                  1982 - 1983:
-                  Post Graduate Diploma in Systems Management<br>
-                  1983 - 1985	:
-                  Post Graduate Diploma in Industrial Engineering <br>
-                   <span>Experience</span>
-                  <br>Total : 38 + years of experience <br>
-                  Oracle Corporation - Oracle University: 20 + years
-                  Director New initiatives: 2+ years
-                  Director - Resourcing, Delivery Logistics and Key Initiative: 2 Years
-                  Director , Solution Architect key Accounts: 2 years
-                  Practice Director Live Virtual class APAC: 2 years
-                  IBM Key Account Delivery Director: 2+ years
-                  Regional Resource Director (APAC): 2+years
-                  Senior Manager India Delivery: 5+ Years
-                  Instructor and Classroom delivery support: 2+ years
-                  
-                  </p>
+                  <small class="client-designation">
+                    Founder & Manging Trustee</small
+                  >
+                  <div class="client-description">
+                    <span> Education</span>
+                    <div class="client-education">
+                      <p>
+                        1974 - 1979 : Bachelor of Technology in Electrical
+                        (Power)
+                      </p>
+                      <p>
+                        1982 - 1983 : Post Graduate Diploma in Systems
+                        Management
+                      </p>
+                      <p>
+                        1983 - 1985 : Post Graduate Diploma in Industrial
+                        Engineering
+                      </p>
+                    </div>
+
+                    <span class="client-heading two">Experience</span>
+
+                    <p class="client-experience">
+                      Total : 38 + years of experience Oracle Corporation -
+                      Oracle University: 20 + years Director New initiatives: 2+
+                      years Director - Resourcing, Delivery Logistics and Key
+                      Initiative: 2 Years Director , Solution Architect key
+                      Accounts: 2 years Practice Director Live Virtual class
+                      APAC: 2 years IBM Key Account Delivery Director: 2+ years
+                      Regional Resource Director (APAC): 2+years Senior Manager
+                      India Delivery: 5+ Years Instructor and Classroom delivery
+                      support: 2+ years
+                    </p>
+                  </div>
                 </div>
               </div>
               <!-- end of item  -->
@@ -170,17 +194,20 @@
                 <div class="client-intro">
                   <h5 class="client-name">Joshua</h5>
                   <small class="client-designation">Content Developer</small>
-                  <p class="client-description">
+                  <div class="client-description">
                     <span> Education</span>
-                      <br>
-                                    2014 - 2017 : Bachelor of Computer Science <br>
-                                    2017 - 2019 : Master of Computer Science <br>
-                                    <span>Experience:</span>
-                      <br>
-                                    Total: 3 + years of experience
-                                    UI Developer for about 10 months
-                                    Ryde Consulting</p>
-                                    </p>
+                    <div class="client-education">
+                      <p>2014 - 2017 : Bachelor of Computer Science</p>
+                      <p>2017 - 2019 : Master of Computer Science</p>
+                    </div>
+
+                    <span class="client-heading two">Experience</span>
+
+                    <p class="client-experience">
+                      Total: 3 + years of experience UI Developer for about 10
+                      months Ryde Consulting
+                    </p>
+                  </div>
                 </div>
               </div>
               <!-- end of item  -->
@@ -188,22 +215,60 @@
               <!-- item -->
               <div class="client-item">
                 <div class="client-thumbnail">
-                  <img src="img/Sasirekha.jpeg" alt="Sasirekha img Missing">
+                  <img src="img/Sasirekha.jpeg" alt="Sasirekha img Missing" />
                 </div>
                 <div class="client-intro">
                   <h5 class="client-name">Sasi Rekha</h5>
                   <small class="client-designation">Content Developer</small>
-                  <p class="client-description">
-                    <span> Education</span>
-                      <br>
-                                    2014 - 2017 : Bachelor of Computer Science <br>
-                                    2017 - 2019 : Master of Computer Science <br>
-                                    <span>Experience:</span>
-                      <br>
-                                    Total: 3 + years of experience
-                                    UI Developer for about 10 months
-                                    Ryde Consulting</p>
-                                    </p>
+                  <div class="client-description">
+                    <div>
+                      <span> Education</span>
+                      <div class="client-education">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos eligendi illo odit quos facere obcaecati
+                        fugiat ipsa nobis praesentium. Dolorum, doloribus velit
+                        optio in nemo provident qui culpa? Quos, at.
+                      </div>
+                    </div>
+
+                    <div>
+                      <span class="client-heading two">Experience</span>
+                      <p class="client-experience">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tempore aut! Ipsam reiciendis soluta nihil accusantium illo repellendus dolorem dignissimos sapiente sint illum sunt, odit laudantium quia maxime fugiat itaque.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end of item  -->
+
+
+              <!-- item -->
+              <div class="client-item">
+                <div class="client-thumbnail">
+                  <img src="img/Manoj.jpeg" alt="Manoj Kumar img Missing" />
+                </div>
+                <div class="client-intro">
+                  <h5 class="client-name">Manoj Kumar</h5>
+                  <small class="client-designation">Content Developer</small>
+                  <div class="client-description">
+                    <div>
+                      <span> Education</span>
+                      <div class="client-education">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos eligendi illo odit quos facere obcaecati
+                        fugiat ipsa nobis praesentium. Dolorum, doloribus velit
+                        optio in nemo provident qui culpa? Quos, at.
+                      </div>
+                    </div>
+
+                    <div>
+                      <span class="client-heading two">Experience</span>
+                      <p class="client-experience">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus dolorem laborum aperiam distinctio natus obcaecati cum, nesciunt et vel molestiae, iste exercitationem! Reiciendis nobis tempora quae! Ea, possimus et?
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- end of item  -->
@@ -216,10 +281,19 @@
                 <div class="client-intro">
                   <h5 class="client-name">Manimaran Durairaj</h5>
                   <small class="client-designation">Content Developer</small>
-                  <p class="client-description">
-                     <span> Education</span> <br> BE Computer Science <br>
-                   <span>Experience:</span> <br> 17 Years of Experience in IT Field
-                  </p>
+                  <div class="client-description">
+                    <div>
+                      <span class="client-heading one"> Education</span>
+                      <p class="client-education">BE Computer Science</p>
+                    </div>
+
+                    <div>
+                      <span class="client-heading two">Experience</span>
+                      <p class="client-experience">
+                        17 Years of Experience in IT Field
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- end of item  -->
@@ -232,34 +306,31 @@
                 <div class="client-intro">
                   <h5 class="client-name">Rajalakshmi</h5>
                   <small class="client-designation">Editor,Proof reader</small>
-                  <p class="client-description">
-                     <span class="client-heading"> Education :</span>
+                  <div class="client-description">
+                    <div>
+                      <span class="client-heading one"> Education</span>
+                      <div class="client-education">
+                        M.A, M.Phil English, PGDELT, PGDNLP
+                      </div>
+                    </div>
 
-                     <p class="client-education one">
-                      M.A, M.Phil English, PGDELT, PGDNLP
-                     </p>
-
-                      <br>
-                      M.A, M.Phil English, PGDELT, PGDNLP<br>
-                    <span class="client-heading">Experience :</span>
-                    
-                    <p class="client-experience two">
-                      2 years in Content Editing and Proofreading.
-                    </p>
-                    
-                    <br>
-                      2 years in Content Editing and Proofreading.<br>
-                      <span class="client-heading">Training Attended:</span>
-
-                      <p class="client-training three">
-                        How to become a professional trainer in (MSME).
-                        Become a content writer in (MSME)
+                    <div>
+                      <span class="client-heading two">Experience</span>
+                      <p class="client-experience">
+                        2 years in Content Editing and Proofreading.
                       </p>
+                    </div>
 
-                        <br>How to become a professional trainer in (MSME).
-                        Become a content writer in (MSME)
-                      
-                  </p>
+                    <div>
+                      <span class="client-heading three"
+                        >Training Attended</span
+                      >
+                      <p class="client-training">
+                        How to become a professional trainer in (MSME). Become a
+                        content writer in (MSME)
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- end of item  -->
@@ -267,18 +338,33 @@
               <!-- item -->
               <div class="client-item">
                 <div class="client-thumbnail">
-                  <img src="img/Thualsi.jpg" alt="Thualsi"/>
+                  <img src="img/Thualsi.jpg" alt="Thualsi" />
                 </div>
                 <div class="client-intro">
                   <h5 class="client-name">Thualsi</h5>
-                  <small class="client-designation">Student, INDIA</small>
-                  <p class="client-description">
-                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat dolore expedita, nisi ipsum facere accusantium culpa perferendis quo obcaecati aspernatur. Modi dignissimos, nostrum minus tempore id natus libero aperiam. In, itaque debitis minus sint quam veritatis eveniet recusandae fuga vero illo officia, consequuntur deserunt animi quod quisquam, a quidem est.
-                  </p>
+                  <small class="client-designation">Web Developer </small>
+                  <div class="client-description">
+                    <div>
+                      <span class="client-heading one"> Education</span>
+
+                      <p class="client-education">
+                        2020 - 2023 : Bachelor of Computer Application(BCA)
+                      </p>
+                    </div>
+
+                    <div>
+                      <span class="client-heading two">Experience</span>
+
+                      <p class="client-experience">
+                        Web Developer - (EMEA) E-commerce Web Content Production
+                        Hub, India
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- end of item  -->
-                           <!-- end of item  -->
+              <!-- end of item  -->
             </div>
           </div>
 
@@ -292,9 +378,10 @@
                 <h4 class="show-name"><!--Erick Jones--></h4>
                 <small class="show-designation"><!--Managing Director--></small>
               </div>
-              <p class="show-description">
+              <div class="show-description">
                 <!--Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt assumenda nostrum dignissimos et repellat illum omnis repudiandae atque, ducimus quo, est delectus tempore facilis odit ullam magnam accusantium cumque ipsa!-->
-              </p>
+              </div>
+
               <!-- <a href="index.html">Go Back</a> -->
             </div>
           </div>
@@ -302,73 +389,143 @@
       </div>
     </div>
     <!-- =================== team=============================== -->
-     
 
-    <!-- =================== footer=============================== -->
-    <footer>
-      <div class="container footer__container">
-        <div class="footer__1">
-          <a href="index.html" class="footer__logo"><h4>RYDE FOUNDATION</h4></a>
-          <p>
-            Old No:42a, New No:65/1 , Opposite to All Women Police Station, Ponneri Road, Ponneri 601204
-          </p>
-        </div>
+<!-- ************************************************************* -->
+<!-- ************************** FOOTER ************************** -->
+<!-- ************************************************************* -->
 
-        <div class="footer__2">
-          <h4>Permalinks</h4>
-          <ul class="permalinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="course.html">Course</a></li>
-            <li><a href="donate.html">Donate</a></li>
+<footer class="footer">
+  <div class="container-footer grid-footer">
+  <div class="home-cols">
+  <!-- Logo -->
+  <div class="home-logo">
+  
+  <p class="ryde-heading"><a href="#">Ryde Foundation</a></p>
+  </div>
+  <!-- Social Links -->
+  
+  <ul class="social-links">
+  <!-- X -->
+  <li>
+  <a href="#"
+  ><svg
+  xmlns="http://www.w3.org/2000/svg"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality"
+  fill-rule="evenodd"
+  clip-rule="evenodd"
+  viewBox="0 0 512 462.799"
+  >
+  <path
+  fill-rule="nonzero"
+  d="M403.229 0h78.506L310.219 196.04 512 462.799H354.002L230.261 301.007 88.669 462.799h-78.56l183.455-209.683L0 0h161.999l111.856 147.88L403.229 0zm-27.556 415.805h43.505L138.363 44.527h-46.68l283.99 371.278z"/></svg></a></li>
+  
+  <!-- Facebook -->
+  <li>
+  <a href="#">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality"
+  fill-rule="evenodd"
+  clip-rule="evenodd"
+  viewBox="0 0 512 509.64"
+  >
+  <path
+  d="M115.613 0h280.774C459.974 0 512 52.026 512 115.612v278.415c0 63.588-52.026 115.613-115.613 115.613H287.015V332.805h69.253l14.365-78.229h-83.618v-27.667c0-41.341 16.218-57.241 58.194-57.241 13.04 0 23.533.317 29.576.953V99.706c-11.448-3.18-39.434-6.361-55.651-6.361-85.545 0-124.977 40.388-124.977 127.522v33.709h-52.79v78.229h52.79V509.64h-78.544C52.026 509.64 0 457.615 0 394.027V115.612C0 52.026 52.026 0 115.613 0z"
+  />
+  </svg>
+  </a>
+  </li>
+  
+  <!-- Instagram -->
+  <li>
+  <a href="#"
+  ><svg
+  xmlns="http://www.w3.org/2000/svg"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+  image-rendering="optimizeQuality"
+  fill-rule="evenodd"
+  clip-rule="evenodd"
+  viewBox="0 0 512 512"
+  >
+  <path
+  fill-rule="nonzero"
+  d="M170.663 256.157c-.083-47.121 38.055-85.4 85.167-85.482 47.121-.092 85.407 38.029 85.499 85.159.091 47.13-38.047 85.4-85.176 85.492-47.112.09-85.399-38.039-85.49-85.169zm-46.108.092c.141 72.602 59.106 131.327 131.69 131.185 72.592-.14 131.35-59.089 131.209-131.691-.141-72.577-59.114-131.336-131.715-131.194-72.585.141-131.325 59.114-131.184 131.7zm237.104-137.092c.033 16.954 13.817 30.682 30.772 30.649 16.961-.034 30.689-13.811 30.664-30.765-.033-16.954-13.818-30.69-30.78-30.656-16.962.033-30.689 13.818-30.656 30.772zm-208.696 345.4c-24.958-1.086-38.511-5.234-47.543-8.709-11.961-4.628-20.496-10.177-29.479-19.093-8.966-8.951-14.532-17.461-19.202-29.397-3.508-9.033-7.73-22.569-8.9-47.527-1.269-26.983-1.559-35.078-1.683-103.433-.133-68.338.116-76.434 1.294-103.441 1.069-24.941 5.242-38.512 8.709-47.536 4.628-11.977 10.161-20.496 19.094-29.478 8.949-8.983 17.459-14.532 29.403-19.202 9.025-3.526 22.561-7.715 47.511-8.9 26.998-1.278 35.085-1.551 103.423-1.684 68.353-.133 76.448.108 103.456 1.294 24.94 1.086 38.51 5.217 47.527 8.709 11.968 4.628 20.503 10.145 29.478 19.094 8.974 8.95 14.54 17.443 19.21 29.413 3.524 8.999 7.714 22.552 8.892 47.494 1.285 26.998 1.576 35.094 1.7 103.432.132 68.355-.117 76.451-1.302 103.442-1.087 24.957-5.226 38.52-8.709 47.56-4.629 11.953-10.161 20.488-19.103 29.471-8.941 8.949-17.451 14.531-29.403 19.201-9.009 3.517-22.561 7.714-47.494 8.9-26.998 1.269-35.086 1.56-103.448 1.684-68.338.133-76.424-.124-103.431-1.294zM149.977 1.773c-27.239 1.286-45.843 5.648-62.101 12.019-16.829 6.561-31.095 15.353-45.286 29.603C28.381 57.653 19.655 71.944 13.144 88.79c-6.303 16.299-10.575 34.912-11.778 62.168C.172 178.264-.102 186.973.031 256.489c.133 69.508.439 78.234 1.741 105.548 1.302 27.231 5.649 45.827 12.019 62.092 6.569 16.83 15.353 31.089 29.611 45.289 14.25 14.2 28.55 22.918 45.404 29.438 16.282 6.294 34.902 10.583 62.15 11.777 27.305 1.203 36.022 1.468 105.521 1.336 69.532-.133 78.25-.44 105.555-1.734 27.239-1.302 45.826-5.664 62.1-12.019 16.829-6.585 31.095-15.353 45.288-29.611 14.191-14.251 22.917-28.55 29.428-45.404 6.304-16.282 10.592-34.904 11.777-62.134 1.195-27.323 1.478-36.049 1.344-105.557-.133-69.516-.447-78.225-1.741-105.522-1.294-27.256-5.657-45.844-12.019-62.118-6.577-16.829-15.352-31.08-29.602-45.288-14.25-14.192-28.55-22.935-45.404-29.429-16.29-6.304-34.903-10.6-62.15-11.778C333.747.164 325.03-.101 255.506.031c-69.507.133-78.224.431-105.529 1.742z"/></svg></a>
+  </li>
+  
+  <!-- Linked in -->
+  <li>
+  <a href="#"
+  ><svg
+  xmlns="http://www.w3.org/2000/svg"
+  x="0px"
+  y="0px"
+  viewBox="0 0 50 50"
+  style="fill: rgb(0, 0, 0)"
+  >
+  <path
+  d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path></svg></a>
+  </li>
+  </ul>
+  <!-- Copyrights -->
+  
+  <p class="copyright">
+  Copyright © <span class="year">2027</span> by Ryde, Inc.
+  All rights reserved.
+  </p>
+  </div>
+  
+  <div class="contact-cols">
+  <p class="footer-heading">contact us</p>
+  <div class="address">
+  <p>
+  No:65/1 , Opp. to Old Women Police Station, Ponneri - 601204,
+  Tiruvallur Dist.
+  </p>
+  </div>
+  
+  <div class="contact">
+  <p>90427 53117</p>
+  
+  <p>contact_us@rydefoundation.in</p>
+  </div>
+  </div>
+  
+  <div class="menu-cols">
+  <p class="footer-heading">nav menu</p>
+  
+  <div>
+  <a class="nav-menu" href="index.html">Home</a>
+  <a class="nav-menu" href="about.html">About</a>
+  <a class="nav-menu" href="course.html">Course</a>
+  <a class="nav-menu" href="#">Donate</a>
+  <a class="nav-menu" href="contact.html">Contact</a>
+  </div>
+  </div>
+  
+  <div class="rules-cols">
+  <p class="footer-heading">terms & conditons</p>
+  
+  <div>
+  <a class="rules-menu" href="#">Primary Policy</a>
+  <a class="rules-menu" href="#">Terms and Conditons</a>
+  <a class="rules-menu" href="#">Refund and Policy</a>
+  </div>
+  </div>
+  </div>
+  
+  <hr />
+  
+  <h4 class="credits">Created by <span><a target="_blank" href="https://www.linkedin.com/in/linganand-b-941b98321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">© Linganand</a></span></h4>
+  </footer>
 
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="footer__3">
-          <h4>Primary</h4>
-          <ul class="privacy">
-            <li><a href="#">Primary Policy</a></li>
-            <li><a href="#">Terms and Condition</a></li>
-            <li><a href="#">Refund and Policy</a></li>
-          </ul>
-        </div>
-
-        <div class="footer__4">
-          <h4>Contact us</h4>
-          <div>
-            <!-- <p>044-27973411</p> -->
-            <p>whatsapp:+91 9042753117</p>
-            <p>contact_us@rydefoundation.in</p>
-            <p>www.rydefoundation.in</p>
-
-          </div>
-          <ul class="footer__socials">
-            <li>
-              <li>
-              <a href="https://www.facebook.com/pages/category/Nonprofit-organization/Ryde-Foundation-101894231865787/"target="_blank "><i class="uil uil-facebook-f"></i></a>
-            </li>
-              <a href="https://www.instagram.com/invites/contact/?i=exsetv47gc1e&utm_content=pp4lyna"><i class="uil uil-instagram-alt"target="_blank "></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="uil uil-twitter"target="_blank "></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="uil uil-linkedin-alt"target="_blank "></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer__copyright">
-        <h5>Created By ☘ THULASI | &copy; RYDE. All rights reserved</h5>
-      </div>
-    </footer>
-
+  
     <!-- =================== javacsript portion=============================== -->
-    <script src="main.js"></script>
-    <script src="testimonal.js"></script>
+    <script src="script/main.js"></script>
+    <script src="script/testimonal.js"></script>
   </body>
 </html>
-
