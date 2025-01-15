@@ -53,8 +53,18 @@ menubtn.style.display = "none";
 //=============close nav menu===========//
 
 const closenav = () => {
-menu.style.display = "none";
-closebtn.style.display = "none";
-menubtn.style.display = "inline-block";
+  menu.style.display = "none";
+  closebtn.style.display = "none";
+  menubtn.style.display = "inline-block";
 };
 closebtn.addEventListener("click", closenav);
+
+//========== *** END *** ============//
+
+
+// Current date in Footer.. //
+const year = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+year.textContent = currentYear;
+
+// End //
