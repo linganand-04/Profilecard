@@ -303,6 +303,10 @@
   .credits {
     font-size: 14px;
   }
+
+  .credits-name{
+    font-size: 12px;
+  }
 }
 
 /**********************************/

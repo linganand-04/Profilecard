@@ -598,6 +598,59 @@
   letter-spacing: 1.2px;
   line-height: 1.5;
   }
+
+  /* Credits Portions */
+
+.credits-box{
+  text-align: center;
+}
+
+.credits {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.credits-inner{
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* gap:24px */
+}
+
+.credits-name-box-1{
+ padding-right: 10px;
+ border-right: 1px solid rgba(0, 0, 0, 0.50);
+ border-radius: 2px; 
+}
+
+.credits-name-box-2{
+  padding-left: 10px; 
+  border-left: 1px double rgba(0, 0, 0, 0.50); 
+  border-radius: 2px; 
+
+}
+
+.credits-name-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.footer-img{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.credits-name{
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;;
+}
   
   /* *********************** */
   /* ******** COMMON ******* */

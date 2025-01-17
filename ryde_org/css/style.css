@@ -14,29 +14,21 @@
   --color-sucess: #00bf8c;
   --color-danger: #f75842;
   --color-warning: #f7c949;
-  --color-danger-variant: rgba(247, 88, 66, 0.4);
+  --color-danger-variant: #rgba(247, 88, 66, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.7);
+  --color-light: #rgba(255, 255, 255, 0.7);
   --color-black: #000;
   --color-bg: #1f2641;
   --color-bg1: #2e3267;
   --color-bg2: #424890;
-  /*===================== doubtðŸ˜“ðŸ’¡============================= */
+  /*===================== doubt😓💡============================= */
   --container-width-1g: 80%;
   --container-width-md: 90%;
   --container-width-5m: 94%;
   --transition: all 400ms ease;
 }
 /* ============= end the css variables=========== */
-/* ================ basic styles ====================== */
-body {
-  font-family: "montserrat", sans-serif;
-  line-height: 1.7;
-  color: #000;
-
-  /***** Temp *****/
-  /* background: linear-gradient(to top left, #000000, #55efc4); */
-}
+/* ================basic styles====================== */
 .container {
   width: var(--container-width-1g);
   /* for large devices */
@@ -47,7 +39,7 @@ img {
   display: block;
   object-fit: cover;
 }
-/* ðŸ˜“-==================doubt====================ðŸ’¡ */
+/* 😓-==================doubt====================💡 */
 
 section {
   padding: 4rem 0;
@@ -79,7 +71,7 @@ h2 {
 }
 h3 {
   font-size: 1.6rem;
-  /* 1.6 rem is equal to 25px */
+  /* 1.6 remis equal to 25px */
 }
 h4 {
   font-size: 1.3rem;
@@ -89,7 +81,7 @@ a {
   /* color: var(--color-white); */
   color: #000;
 }
-/* ðŸ˜“-==================doubt====================ðŸ’¡ */
+/* 😓-==================doubt====================💡 */
 *
 /* ======================================================== */
 .containerrr>.btn :hover {
@@ -132,7 +124,57 @@ a {
 /* ===============end of basic style====================== */
 /* =============nav bar ====================== */
 
-nav {
+/*
+
+- SPACING SYSTEM (px)
+
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- FONT SIZE SYSTEM (px)
+
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+*/
+
+body {
+  font-family: "montserrat", sans-serif;
+  color: #000;
+  overflow-x: hidden;
+  line-height: 1.7;
+  background: linear-gradient(to top left, #000000, #55efc4);
+}
+
+html {
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #000;
+}
+
+/* =============css variables=========== */
+:root {
+  --color-primary: #6c63ff;
+  --color-sucess: #00bf8c;
+  --color-danger: #f75842;
+  --color-warning: #f7c949;
+  --color-danger-variant: rgba(247, 88, 66, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.7);
+  --color-black: #000;
+  --color-bg: #1f2641;
+  --color-bg1: #2e3267;
+  --color-bg2: #424890;
+  /*===================== doubtðŸ˜“ðŸ’¡============================= */
+  --container-width-1g: 80%;
+  --container-width-md: 90%;
+  --container-width-5m: 94%;
+  --transition: all 400ms ease;
+}
+
+.main-nav {
   background: transparent;
   width: 100vw;
   height: 5rem;
@@ -142,41 +184,120 @@ nav {
   z-index: 11;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 .nav__container {
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
-  width: 5.5rem;
-  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
   overflow: hidden;
   margin: 0 auto 0;
 }
+
 nav button {
   display: none;
 }
+
+#open-menu-btn,
+#close-menu-btn {
+  display: none;
+}
+
 .nav__menu {
   display: flex;
   align-items: center;
   gap: 4rem;
-  /* 464px=4rem*/
+  /* 64px = 4rem*/
+  position: relative;
 }
+
+/**********************************/
+/************** BATCHS ************/
+/**********************************/
+
+.batch {
+  cursor: pointer;
+  position: relative;
+  padding: 20px 0;
+  transition: all 0.3s;
+}
+
+.batch-year {
+  display: none;
+  position: absolute;
+  top: 90%;
+  left: -30%;
+  width: 160px;
+  background-color: #fff;
+  box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.075);
+  border-radius: 3px;
+  padding: 12px;
+  z-index: 98;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  background-color: #fafafa;
+}
+
+/* Dropdown Hover Effect */
+.batch-child {
+  display: block;
+  text-align: center;
+  width: 150px;
+  z-index: 99;
+  background: linear-gradient(to top left, rgb(24, 24, 24), #55efc4);
+}
+/* END */
+
+.batch-year ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.batch:hover .batch-year ul li a {
+  color: black;
+}
+
+.batch:hover .batch-year ul li a:hover {
+  color: white;
+}
+
+/* ************** */
+/* END OF BATCHES */
+/* ************** */
+
 .nav__menu a {
   font-size: 0.9rem;
   /* 0.9 rem=14.4px */
   transition: var(--transition);
 }
+
 .nav__menu a:hover {
   /* color: var(--color-bg2); */
   /* color: #4bc938; */
   color: white;
 }
+
 .logo-title {
-  margin-right: 15rem;
+  margin-right: 10rem;
   font-size: 1rem;
 }
+
 /* =============change navbar style on scroll===================== */
 .window_scroll {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
@@ -355,7 +476,7 @@ header {
   display: block;
   /* background red, and then remove that use linear gradient 
   instead of using transparent use 135 deg */
-  /* ðŸ˜“-==================doubt====================ðŸ’¡ðŸ˜…ðŸ’¡ðŸ’¡ */
+  /* 😓-==================doubt====================💡😅💡💡 */
 
   background: linear-gradient(transparent, #20ded3, #20ded3, #20ded3, #20ded3);
   width: 3rem;
@@ -384,7 +505,7 @@ header {
   display: flex;
   align-items: center;
   gap: 1.4rem;
-  /* ðŸ˜“-==================doubt====================ðŸ’¡ */
+  /* 😓-==================doubt====================💡 */
   height: fit-content;
   background-color: #f6fba2;
   background-image: linear-gradient(315deg, #f6fba2 0%, #20ded3 74%);
@@ -410,7 +531,7 @@ header {
 }
 .faq.open p {
   display: block;
-  /* refer with markup code ðŸ˜‹ */
+  /* refer with markup code 😋 */
 }
 
 /* ====================footer=============================== */
@@ -430,7 +551,7 @@ footer {
 .footer__1 p {
   margin: 0 0 2rem;
 }
-/* ðŸ˜“-==================doubt========NOT WORKINGðŸ™„============ðŸ’¡*/
+/* 😓-==================doubt========NOT WORKING🙄============💡*/
 
 .footer ul li {
   margin-bottom: 0.7rem;
@@ -451,13 +572,10 @@ footer {
   border-top: 1px solid black;
 }
 
-/* ====================media query section ðŸ˜…ðŸ’¡=================================== */
+/* ====================media query section 😅💡=================================== */
 
 /* ====================basic styles=================================== */
 @media screen and (max-width: 1024px) {
-  /* body {
-    background: red;
-  } */
 
   .container {
     width: var(--container-width-md);
@@ -514,7 +632,7 @@ footer {
     width: 100%;
     height: 5.8rem;
     animation: animatenavitems 400ms linear forwards;
-    /* transform-origin: top right; */
+    transform-origin: top right;
     opacity: 0;
   }
   .nav__menu li a {
@@ -616,9 +734,9 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 }
-/* some doubt in ðŸ™„categories section and header partðŸ˜¥ */
+/* some doubt in 🙄categories section and header part😥 */
 
-/* /* =======================media queries for phones ðŸ“±========= */
+/* /* =======================media queries for phones 📱========= */
 
 @media screen and (max-width: 600px) {
   h4 {
