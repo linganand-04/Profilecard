@@ -307,6 +307,11 @@
   .credits-name{
     font-size: 12px;
   }
+
+  .footer-img{
+    width: 32px;
+    height: 32px;
+  }
 }
 
 /**********************************/
@@ -389,6 +394,10 @@
   .contact p {
     font-size: 10px;
     letter-spacing: 1.1px;
+  }
+  .contact svg {
+    width: 16px;
+    height: 16px;
   }
 
   .copyright {

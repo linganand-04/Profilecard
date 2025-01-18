@@ -647,11 +647,20 @@ header {
   line-height: 1.5;
 }
 
-.contact p {
+.address,.contact p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-size: 15px;
   letter-spacing: 1.3px;
   line-height: 1.5;
 }
+
+.contact svg {
+  width: 26px;
+  height: 26px;
+}
+
 
 /* Menu-cols */
 

@@ -296,6 +296,11 @@
     font-size: 12px;
   }
 
+  .contact svg {
+    width: 20px;
+    height: 20px;
+  }
+
   .copyright {
     font-size: 12px;
   }
@@ -303,6 +308,16 @@
   .credits {
     font-size: 14px;
   }
+
+  .credits-name{
+    font-size: 12px;
+  }
+
+  .footer-img{
+    width: 32px;
+    height: 32px;
+  }
+
 }
 
 /**********************************/

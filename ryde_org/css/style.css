@@ -29,11 +29,7 @@
 }
 /* ============= end the css variables=========== */
 /* ================basic styles====================== */
-.container {
-  width: var(--container-width-1g);
-  /* for large devices */
-  margin: auto;
-}
+
 img {
   width: 100%;
   display: block;
@@ -534,52 +530,233 @@ header {
   /* refer with markup code 😋 */
 }
 
-/* ====================footer=============================== */
-footer {
-  background: #88bd8c;
-  padding-top: 5rem;
-  font-size: 0.9rem;
-}
-.footer__container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5rem;
-}
-.footer__container > div h4 {
-  margin-bottom: 1.2rem;
-}
-.footer__1 p {
-  margin: 0 0 2rem;
-}
-/* 😓-==================doubt========NOT WORKING🙄============💡*/
+/**********************************/
+/************ FOOTER **************/
+/**********************************/
 
-.footer ul li {
-  margin-bottom: 0.7rem;
+.container-footer {
+  max-width: 1200px;
+  padding: 0 32px;
+  margin: 0 auto 32px auto;
 }
-.footer ul li a:hover {
-  text-decoration: underline;
+
+.footer {
+  background: #88bd8c;
+  padding: 80px 0 30px 0;
+  border-top: 2px solid #eee;
 }
-.footer__socials {
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  display: grid;
+  gap: 48px;
+}
+
+.home-cols {
   display: flex;
-  gap: 1rem;
-  font-size: 1.2rem;
-  margin-top: 2rem;
+  flex-direction: column;
 }
-.footer__copyright {
+
+.home-logo {
+  display: flex;
+  align-items: center;
+}
+
+.home-logo a,
+.ryde-logo {
+  display: inline-block;
+}
+
+.ryde-logo {
+  height: 100px;
+  width: 135px;
+  overflow: hidden;
+}
+
+.ryde-heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 48px;
+  letter-spacing: 1.2px;
+}
+
+.footer-heading {
+  color: #181818;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 48px;
+  word-spacing: 3px;
+}
+
+.social-links {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.social-links li svg {
+  height: 25px;
+}
+
+.copyright {
+  margin-top: auto;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #353535;
+  /* temp */
+  margin-bottom: 24px;
+}
+
+.contact-cols {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.address,
+.contact {
+  margin-bottom: 24px;
+}
+
+.address p {
+  font-size: 15px;
+  letter-spacing: 1.3px;
+  line-height: 1.5;
+}
+
+.address,.contact p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  letter-spacing: 1.3px;
+  line-height: 1.5;
+}
+
+.contact svg {
+  width: 26px;
+  height: 26px;
+}
+
+/* Menu-cols */
+
+.menu-cols {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+}
+
+.menu-cols div {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.nav-menu {
+  display: inline-block;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+}
+
+/* Terms * conditions */
+
+.rules-cols {
+  display: flex;
+  flex-direction: column;
+}
+
+.rules-cols div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+}
+
+/* Credits Portions */
+
+.credits-box {
   text-align: center;
-  margin-top: 4rem;
-  padding: 1.2rem 0;
-  border-top: 1px solid black;
 }
+
+.credits {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.credits-inner {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* gap:24px */
+}
+
+.credits-name-box-1 {
+  padding-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.credits-name-box-2 {
+  padding-left: 10px;
+  border-left: 1px double rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.credits-name-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.footer-img {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.credits-name {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+hr {
+  margin-bottom: 24px;
+  border: 1px solid rgb(20, 20, 20);
+}
+
+.credits {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* *********************** */
+/* ******** COMMON ******* */
+/* *********************** */
+
+.nav-menu:hover,
+.rules-menu:hover {
+  color: white;
+}
+
+/* ***** End Of Common ***** */
+
 
 /* ====================media query section 😅💡=================================== */
 
 /* ====================basic styles=================================== */
 @media screen and (max-width: 1024px) {
 
-  .container {
-    width: var(--container-width-md);
-  }
+
 
   h1 {
     font-size: 2.2rem;
@@ -597,82 +774,35 @@ footer {
     font-size: 1.2rem;
     /* default h4 size 20 px 1.25rem*/
   }
-  /* ====================nav bar media =============================== */
-  nav button {
-    display: inline-block;
-    background: transparent;
-    font-size: 1.8rem;
-    color: var(--color-white);
-    cursor: pointer;
-  }
-  nav button#close-menu-btn {
-    display: none;
-  }
-  .logo {
-    width: 4.5rem;
-    height: 4.5rem;
-    overflow: hidden;
-    margin: auto;
-  }
-  .logo-title {
-    margin-right: 20rem;
-    font-size: 1rem;
-  }
-  .nav__menu {
-    position: fixed;
-    top: 5rem;
-    right: 5%;
-    height: fit-content;
-    width: 18rem;
-    flex-direction: column;
-    gap: 0;
-    display: none;
-  }
-  .nav__menu li {
-    width: 100%;
-    height: 5.8rem;
-    animation: animatenavitems 400ms linear forwards;
-    transform-origin: top right;
-    opacity: 0;
-  }
-  .nav__menu li a {
-    background-color: #f6fba2;
-    background-image: linear-gradient(315deg, #f6fba2 0%, #20ded3 74%);
-
-    box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
-    display: grid;
-    place-items: center;
-  }
-  .nav__menu li a:hover {
-    background: linear-gradient(to top left, #000000, #55efc4);
-
-    color: var(--color-white);
-  }
-  /* ====================nth child chnages================== */
-  .nav__menu li:nth-child(2) {
-    animation-delay: 200ms;
-  }
-  .nav__menu li:nth-child(3) {
-    animation-delay: 400ms;
-  }
-  .nav__menu li:nth-child(4) {
-    animation-delay: 600ms;
-  }
-  .nav__menu li:nth-child(5) {
-    animation-delay: 800ms;
-  }
+ 
   /* ====================animation================================== */
-  @keyframes animatenavitems {
-    0% {
-      transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
-    }
-    100% {
-      transform: rotateZ(0) rotateX(0) scale(1);
-      opacity: 1;
-    }
+@keyframes animatenavitems {
+  0% {
+    transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
   }
+
+  100% {
+    transform: rotateZ(0) rotateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/* ====================nth child chnages================== */
+.nav__menu li:nth-child(2) {
+  animation-delay: 200ms;
+}
+
+.nav__menu li:nth-child(3) {
+  animation-delay: 400ms;
+}
+
+.nav__menu li:nth-child(4) {
+  animation-delay: 600ms;
+}
+
+.nav__menu li:nth-child(5) {
+  animation-delay: 800ms;
+}
   /* ====================header=============================== */
   header {
     height: 52vh;
@@ -728,13 +858,7 @@ footer {
   .faq {
     padding: 1.5rem;
   }
-  /* ====================footer============================ */
-
-  .footer__container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-/* some doubt in 🙄categories section and header part😥 */
+  
 
 /* /* =======================media queries for phones 📱========= */
 
@@ -742,23 +866,7 @@ footer {
   h4 {
     font-size: 1rem;
   }
-  .container {
-    width: var(--container-width-5m);
-  }
-  /* ====================navbar=======================}==== */
-  .nav__menu {
-    right: 3%;
-  }
-  .logo {
-    width: 5rem;
-    height: 5rem;
-    /* border-radius: 50%; */
-    overflow: hidden;
-    margin: auto;
-  }
-  .logo-title {
-    margin-right: 3rem;
-  }
+  
   /* ====================header=======================}==== */
   header {
     height: 100vh;
@@ -834,4 +942,4 @@ footer {
   .footer__socials {
     justify-content: center;
   }
-}
+}}
